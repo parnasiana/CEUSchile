@@ -12,7 +12,7 @@ $(document).ready(function(){
  });
 
 	$("#navigation").sticky({
-		topSpacing : 75,
+		topSpacing : 0,
 	});
 
     // animation scroll js
