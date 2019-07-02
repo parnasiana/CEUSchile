@@ -83,7 +83,7 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
         {
             width: 100%;
             background-color: #2656ED;
-            height: 500px;
+            height: auto;
             clear: both;
             position: relative;
             
@@ -104,20 +104,32 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
         }
 
         .img-plus-btn{
-            width: 40%;
+            width: 30%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+        }
+
+        a.about-conection{
+            background-color: #0C295B;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: #FFF;
+            font-weight: 500;
+            font-size: 21px;
+            margin-top: 20px;
+            box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.6);
         }
 
         h6 {
             font-family: 'Work Sans', sans-serif;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 50px;
+            font-size: 46px;
             color: #FFF;
             text-align: left;
             width: 40%;
+            line-height: 58px;
         }
         .slider-image
         {
@@ -145,7 +157,7 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
         .button-holder
         {
             position: relative;
-            top: -20px;
+            top: -40px;
         }
         
         .slider-change
