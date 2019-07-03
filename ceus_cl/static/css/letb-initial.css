@@ -146,18 +146,18 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
         
         #slider-image-2:target ~ .image-holder
         {
-            left: -800px;
+            left: calc(-100%);
         }
         
         #slider-image-3:target ~ .image-holder
         {
-            left: -1600px;
+            left: calc(-200%);
         }
         
         .button-holder
         {
             position: relative;
-            top: -60px;
+            top: -1200px;
         }
         
         .slider-change
