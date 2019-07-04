@@ -20,7 +20,19 @@ nav .block{
 
 .navbar-brand {
     height: auto;
-    padding: 0;
+    padding: 0;  
+}
+
+#navigation-sticky-wrapper{
+    height: 100px !important;
+}
+
+.container:before, .row:before{
+    display: none;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
 }
 
 nav .block .navbar-default .navbar-nav > li > a {
@@ -90,14 +102,14 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 40px 0;
 
 }
 
 img.slide-img-ceus{
-    width: 40%;
+    width: 45%;
 }
 
 #hero-arrow-l {
@@ -105,6 +117,8 @@ img.slide-img-ceus{
     left: 10%;
     font-size: 60px;
     cursor: pointer;
+    color: #FFF;
+    top: 200px;
 }
 
 #hero-arrow-r {
@@ -112,16 +126,18 @@ img.slide-img-ceus{
     right: 10%;
     font-size: 60px;
     cursor: pointer;
+    color: #FFF;
+    top: 200px;
 }
 
 h6.slide-text{
     font-family: 'Work Sans', sans-serif;
-    font-size: 48px;
+    font-size: 46px;
     color: #FFF;
     text-transform: uppercase;
-    width: 50%;
+    width: 45%;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 
