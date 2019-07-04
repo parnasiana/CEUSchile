@@ -97,7 +97,7 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
 }
 
 img.slide-img-ceus{
-    width: 30%;
+    width: 40%;
 }
 
 #hero-arrow-l {
@@ -121,6 +121,7 @@ h6.slide-text{
     text-transform: uppercase;
     width: 50%;
     font-weight: 600;
+    line-height: 60px;
 }
 
 
