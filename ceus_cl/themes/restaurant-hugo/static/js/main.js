@@ -3,7 +3,7 @@ $(document).ready(function(){
 
  $("#owl-example").owlCarousel({
     // Most important owl features
-    items : 4,
+    items : 3,
     pagination : true,
     paginationSpeed : 1000,
     navigation : true,

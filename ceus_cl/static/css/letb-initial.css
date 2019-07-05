@@ -159,10 +159,25 @@ h6.slide-text{
     padding: 20px 0;
 }
 
+#slider{
+    padding: 50px 10%;
+}
+
+.title h3 {
+    text-transform: none;
+    font-size: 38px;
+    font-weight: 400;
+
+}
+
+.title span {
+    color: #158976;
+
+}
 
 .blog-green{
     background-color: #43C11F;
-    width: 200px;
+    
     height: 300px;
     border-radius: 10px;
 }

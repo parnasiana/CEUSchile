@@ -53,28 +53,31 @@ url =  "images/header.jpg"
 
 [params.gallery]
 enable = true
-title= "Featured <span>Menu</span>"
+title= "Los temas de nuestro <span>Blog</span>"
 
 [[params.gallery.item]]
-img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/slidericon_1.png"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-2.jpg"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-3.jpg"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-4.jpg"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-1.jpg"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-2.jpg"
+img = ""
 
 [[params.gallery.item]]
-img = "images/slider/slider-img-3.jpg"
+img = ""
+
+[[params.gallery.item]]
+img = ""
 
 
 [params.about]
