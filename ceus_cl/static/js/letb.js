@@ -20,4 +20,23 @@ $('#hero-arrow-l').click(function() {
     if(prevSlide.length == 0) {
         $('.slide').last().fadeIn(300).addClass('active');
     }
-})
+});
+
+$('.owl-carousel').owlCarousel({
+    items: 3,
+    stagePadding: 80,
+    loop:true,
+    margin:0,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});

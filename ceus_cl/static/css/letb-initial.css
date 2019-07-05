@@ -177,7 +177,8 @@ h6.slide-text{
 
 .blog-green{
     background-color: #43C11F;
-    
-    height: 300px;
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
     border-radius: 10px;
 }
