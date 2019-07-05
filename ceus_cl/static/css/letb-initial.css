@@ -182,3 +182,11 @@ h6.slide-text{
     margin: 0 20px;
     border-radius: 10px;
 }
+
+#slider .block .owl-carousel .owl-pagination .active {
+    background: #158976;
+}
+
+.owl-pagination {
+    margin-top: 30px;
+}
