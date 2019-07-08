@@ -23,14 +23,13 @@ nav .block{
     padding: 0;  
 }
 
-#navigation-sticky-wrapper{
-    height: 100px !important;
-}
-
 .container:before, .row:before{
     display: none;
 }
 
+.no-margin{
+    margin: 0 !important;
+}
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
 }
