@@ -39,6 +39,6 @@ $('.owl-carousel').owlCarousel({
         }
     },
     navigation: true,
-    navigationText: ["","<i class='fa fa-angle-right'></i>"],
+    navigationText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
     lazyLoad: true,
 });

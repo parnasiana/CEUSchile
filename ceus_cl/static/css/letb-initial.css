@@ -179,11 +179,15 @@ h6.slide-text{
     background-color: #43C11F;
     height: 400px;
     border-radius: 10px;
-    margin-right: 20px;
 }
 
 #slider .block .owl-carousel .owl-pagination .active {
     background: #158976;
+}
+
+.arrow-owl-ceus{
+    font-size: 30px;
+    color: #158976;
 }
 
 .owl-pagination {
