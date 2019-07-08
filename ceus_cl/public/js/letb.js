@@ -27,17 +27,6 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    },
     navigation: true,
     navigationText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
     lazyLoad: true,
