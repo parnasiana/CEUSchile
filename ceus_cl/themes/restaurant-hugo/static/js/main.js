@@ -1,16 +1,6 @@
 $(document).ready(function(){
 
 
- $("#owl-example").owlCarousel({
-    // Most important owl features
-    items : 9,
-    pagination : true,
-    paginationSpeed : 1000,
-    navigation : true,
-    navigationText : ["","<i class='fa fa-angle-right'></i>"],
-    slideSpeed : 800,
- });
-
 	$("#navigation").sticky({
 		topSpacing : 0,
 	});

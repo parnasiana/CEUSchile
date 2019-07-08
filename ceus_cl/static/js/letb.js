@@ -23,8 +23,7 @@ $('#hero-arrow-l').click(function() {
 });
 
 $('.owl-carousel').owlCarousel({
-    items: 3,
-    stagePadding: 80,
+    items: 3,    
     loop:true,
     margin:0,
     nav:true,
@@ -38,5 +37,8 @@ $('.owl-carousel').owlCarousel({
         1000:{
             items:5
         }
-    }
+    },
+    navigation: true,
+    navigationText: ["","<i class='fa fa-angle-right'></i>"],
+    lazyLoad: true,
 });
