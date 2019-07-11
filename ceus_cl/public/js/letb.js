@@ -25,9 +25,9 @@ $('#hero-arrow-l').click(function() {
 $('.owl-carousel').owlCarousel({
     items: 3,    
     loop:true,
-    margin:0,
+    margin:120,
     nav:true,
-    navigation: true,
-    navigationText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
-    lazyLoad: true,
+    navText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
+    dots: true,
+    dotsEach: true,
 });

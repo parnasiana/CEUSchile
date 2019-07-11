@@ -180,10 +180,6 @@ h6.slide-text{
     border-radius: 10px;
 }
 
-.owl-item {
-    padding-right: 30px;
-}
-
 #slider .block .owl-carousel .owl-pagination .active {
     background: #158976;
 }
@@ -199,4 +195,10 @@ h6.slide-text{
 
 #slider .block {
     padding: 0px;
+}
+
+.owl-nav{
+    float: right;
+    position: relative;
+    top: -475px;
 }
