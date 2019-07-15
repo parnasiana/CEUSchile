@@ -29,5 +29,4 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     navText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
     dots: true,
-    dotsEach: true,
 });

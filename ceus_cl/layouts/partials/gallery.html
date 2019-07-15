@@ -11,6 +11,7 @@
                         {{ range $.Site.Params.gallery.item }}
                             <div class="blog-green">
                                 <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                <h3>{{ .ceusBlogTitle }}</h3>
                             </div>
                         {{ end }}
                     </div>

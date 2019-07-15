@@ -180,7 +180,7 @@ h6.slide-text{
     border-radius: 10px;
 }
 
-#slider .block .owl-carousel .owl-pagination .active {
+#slider .block .owl-carousel button.owl-dot.active {
     background: #158976;
 }
 
@@ -189,7 +189,7 @@ h6.slide-text{
     color: #158976;
 }
 
-.owl-pagination {
+.owl-dots {
     margin-top: 30px;
 }
 
@@ -202,3 +202,24 @@ h6.slide-text{
     position: relative;
     top: -475px;
 }
+
+.hello-ceus{
+    font-size: 40px;
+    color: #FFF;
+}
+
+.blog-overlay {
+    
+    text-align: center;
+    background-color: #FFF;
+    border: 3px solid #43C11F;
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-overlay:hover{
+    opacity: 1;
+}
+

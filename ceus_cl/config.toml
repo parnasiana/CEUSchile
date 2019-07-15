@@ -89,28 +89,40 @@ enable = true
 title= "Los temas de nuestro <span>Blog</span>"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_news_icon.png"
+ceusBlogTitle = "Noticias"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Sociedad"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Educación"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Congreso"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Medio Ambiente"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Opinión"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Desarrollo Sustentable"
 
 [[params.gallery.item]]
 img = ""
+ceusBlogTitle = "Proyectos"
+
+[[params.gallery.item]]
+img = ""
+ceusBlogTitle = "Líderes Sustentables"
 
 
 [params.about]
