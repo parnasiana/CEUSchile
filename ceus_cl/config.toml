@@ -89,39 +89,39 @@ enable = true
 title= "Los temas de nuestro <span>Blog</span>"
 
 [[params.gallery.item]]
-img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_news_icon.png"
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_news_icon_noBack.png"
 ceusBlogTitle = "Noticias"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_society_icon_noBack.png"
 ceusBlogTitle = "Sociedad"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_education_icon_noBack.png"
 ceusBlogTitle = "Educación"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_conference_icon_noBack.png"
 ceusBlogTitle = "Congreso"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_environment_icon_noBack.png"
 ceusBlogTitle = "Medio Ambiente"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_opinion_icon_noBack.png"
 ceusBlogTitle = "Opinión"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableDevelopment_icon_noBack.png"
 ceusBlogTitle = "Desarrollo Sustentable"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_projects_icon_noBack.png"
 ceusBlogTitle = "Proyectos"
 
 [[params.gallery.item]]
-img = ""
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableLeaders_icon_noBack.png"
 ceusBlogTitle = "Líderes Sustentables"
 
 
