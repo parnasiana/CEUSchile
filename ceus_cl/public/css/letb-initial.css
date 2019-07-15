@@ -185,17 +185,9 @@ h6.slide-text{
     position: relative;
 }
 
-#slider .block .owl-carousel button.owl-dot.active {
-    background: #158976;
-}
-
 .arrow-owl-ceus{
     font-size: 60px;
     color: #158976;
-}
-
-.owl-dots {
-    margin-top: 30px;
 }
 
 #slider .block {
@@ -203,7 +195,66 @@ h6.slide-text{
 }
 
 .owl-nav{
-    float: right;
-    position: relative;
-    top: -475px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+#slider .block .owl-carousel img {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.blog-text-gallery{
+    position: absolute;
+    color: #43C11F;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.overlay-blog-ceus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease-out;
+    background: #FFF;
+    border: 3px solid #43C11F;
+    border-radius: 10px;
+}
+
+.blog-green:hover .overlay-blog-ceus {
+    opacity: 1;
+}
+
+.owl-dots {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+
+#slider .block .owl-carousel button.owl-dot {
+    background: #43C11F;
+}
+
+#slider .block .owl-carousel button.owl-dot.active {
+    background: #158976;
 }

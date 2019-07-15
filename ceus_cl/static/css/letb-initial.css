@@ -185,17 +185,9 @@ h6.slide-text{
     position: relative;
 }
 
-#slider .block .owl-carousel button.owl-dot.active {
-    background: #158976;
-}
-
 .arrow-owl-ceus{
     font-size: 60px;
     color: #158976;
-}
-
-.owl-dots {
-    margin-top: 30px;
 }
 
 #slider .block {
@@ -243,4 +235,26 @@ h6.slide-text{
 
 .blog-green:hover .overlay-blog-ceus {
     opacity: 1;
+}
+
+.owl-dots {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+
+#slider .block .owl-carousel button.owl-dot {
+    background: #43C11F;
+}
+
+#slider .block .owl-carousel button.owl-dot.active {
+    background: #158976;
 }
