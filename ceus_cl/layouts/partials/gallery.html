@@ -10,8 +10,10 @@
                     <div id="owl-example" class="owl-carousel">
                         {{ range $.Site.Params.gallery.item }}
                             <div class="blog-green">
-                                <img class="img-responsive" src="{{ .img | absURL }}" alt="">
-                                <h3>{{ .ceusBlogTitle }}</h3>
+                                    <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                    <div class="overlay-blog-ceus">
+                                    </div>
+                                </a>
                             </div>
                         {{ end }}
                     </div>
