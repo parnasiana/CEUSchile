@@ -1,19 +1,18 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 /*--- NAV --- */
-
 .container {
     width: 100%;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 nav .block{
     margin-top: 0;
     background-color: #158976;
-    padding: 25px 10%;
+    padding: 26px 10%;
 }
 
 .navbar-brand>img {
@@ -27,10 +26,6 @@ nav .block{
 
 .container:before, .row:before{
     display: none;
-}
-
-.no-margin{
-    margin: 0 !important;
 }
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
