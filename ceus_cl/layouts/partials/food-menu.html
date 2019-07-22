@@ -1,39 +1,14 @@
-{{ if .Site.Params.foodMenu.enable }}
+
 
   <section id="price">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                            {{ with .Site.Params.foodMenu.title }} {{ . | safeHTML }} {{ end }}
-                        </h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                            {{ with .Site.Params.foodMenu.description }} {{ . }} {{ end }}
-                        </p>
-                        <div class="pricing-list">
-                            <div class="title">
-                                <h3>{{ with .Site.Params.foodMenu.subtitle }} {{ . }} {{ end }}</h3>
-                            </div>
-                            <ul>
-                                {{ range $.Site.Params.foodMenu.item }}
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>{{.title}}</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>{{.price}}</span>
-                                        </div>
-                                        <p>{{.description}}</p>
-                                    </div>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #price close -->
+        <div class="form-call">
+            <div class="text-call">
+                <h6 class="call-text">¡Te queremos en el equipo!</h6>
+                <p class="explain-call">Si eres mayor de 18 años, llena el <a href="#"class="link-toform">formulario</a> 
+                    y nos pondremos en contacto contigo. ¡Contamos con tu apoyo!</p>
+            </div>
+            <img src="https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_callForm_img.png" class="img-callform">
+        </div>
+    </section>
+    
 
-{{end}}
