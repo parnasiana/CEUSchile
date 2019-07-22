@@ -4,10 +4,27 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <img src="{{ .Site.Params.about.bgImage | absURL }}" alt="Logo" />
                     <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >
                         {{ with .Site.Params.about.title }} {{ . | safeHTML }} {{ end }}
                     </h1>
+                    <div class="our-allies">
+                        <a href="https://mma.gob.cl" target="_blank">
+                            <img class="ceus-allies" src="{{ .Site.Params.about.MMAImage | absURL }}" alt="Logo Ministerio del Medio Ambiente">
+                        </a>
+                        <a href="http://ingenieria.uchile.cl" target="_blank">
+                            <img class="ceus-allies" src="{{ .Site.Params.about.FCFMImage | absURL }}" alt="Logo Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile">
+                        </a>
+                        <a href="https://www.mallplaza.cl/" target="_blank">
+                            <img class="ceus-allies" src="{{ .Site.Params.about.MplazaImage | absURL }}" alt="Logo Mall Plaza">
+                        </a>
+                        <a href="http://entel.cl" target="_blank">
+                            <img class="ceus-allies" src="{{ .Site.Params.about.entelImage | absURL }}" alt="Logo Entel">
+                        </a>
+                        <a href="https://www.instagram.com/volo.food" target="_blank">
+                            <img class="ceus-allies" src="{{ .Site.Params.about.voloImage | absURL }}" alt="Logo Voló Food">
+                        </a>
+                    </div>
+                    
                     <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
                         {{ with .Site.Params.about.description }} {{ . | safeHTML }} {{ end }} 
                     </p>

@@ -127,8 +127,16 @@ ceusBlogTitle = "Líderes Sustentables"
 
 [params.about]
 enable = true
-title= "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-bgImage = "images/cooker-img.png"
+title= "Algunos de los aislados de <span> CEUS</span>"
+MMAImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_MMA.jpg"
+FCFMImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FCFM.jpg"
+MPlazaImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_mallplaza.jpg"
+entelImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_entel.jpg"
+voloImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_volo.jpg"
+
+
+
+
 description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
 
 

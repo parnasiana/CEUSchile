@@ -253,3 +253,35 @@ h6.slide-text{
 #slider .block .owl-carousel button.owl-dot.active {
     background: #158976;
 }
+
+.heading span {
+    font-size: 45px;
+    color: #158976;
+    font-weight: 600;
+}
+
+.heading:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 200px;
+    height: 2px;
+    background: #158976;
+    margin-left: -70px;
+}
+
+.our-allies {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ceus-allies{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+}
