@@ -5,6 +5,7 @@ theme="restaurant-hugo"
 summaryLength = "7"
 js= ["static/letb.js"]
 
+
 [context.production.environment]
     HUGO_VERSION = "0.55.6"
     HUGO_ENV = "production"
@@ -133,14 +134,6 @@ FCFMImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FCFM
 MPlazaImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_mallplaza.jpg"
 entelImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_entel.jpg"
 voloImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_volo.jpg"
-
-
-
-
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
-
-
-
 
 #food Menu
 
