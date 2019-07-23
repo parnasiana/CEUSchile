@@ -304,3 +304,48 @@ h6.slide-text{
     background-attachment: fixed;
     position: relative;
   }
+
+  #price{
+    background-color: #158976;
+  }
+
+  .form-call{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:0 10%;
+  }
+
+  .text-call{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 60%;
+  }
+
+  h6.call-text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 66px;
+    padding: 20px 0;
+  }
+
+  p.explain-call, a.link-toform{
+      font-family: 'Work Sans', sans-serif;
+      font-size: 36px;
+      color: #FFF;
+      line-height: 38px;
+      
+  }
+
+  a.link-toform{
+    text-decoration-line: underline !important;
+  }
+
+  .img-callform{
+      width: 30%;
+  }

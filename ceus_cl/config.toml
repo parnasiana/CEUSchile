@@ -128,54 +128,19 @@ ceusBlogTitle = "Líderes Sustentables"
 
 [params.about]
 enable = true
-title= "Algunos de los aislados de <span> CEUS</span>"
+title= "Algunos de los aliados de <span> CEUS</span>"
 MMAImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_MMA.jpg"
 FCFMImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_FCFM.jpg"
 MPlazaImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_mallplaza.jpg"
 entelImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_entel.jpg"
 voloImage = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Aliados/ceus_logo_volo.jpg"
 
-#food Menu
-
-[params.foodMenu]
-enable = true
-title = "Our Easy <span>PRICE</span>"
-description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-subtitle = "FEATURED ON THE WEEK"
-
-[[params.foodMenu.item]]
-title="Pancakes n' Such Titas"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 125.00"
-
-[[params.foodMenu.item]]
-title="Caesar Salad"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 100.00"
-
-[[params.foodMenu.item]]
-title="Steak with a Garlic and Parsley Risotto"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 20.00"
-
-[[params.foodMenu.item]]
-title="Meat of Skewers"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 45.00"
-
-[[params.foodMenu.item]]
-title="Pancakes n' Such"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 25.00"
-
-
-
 #subscription
 
 [params.subscription]
 enable = true
-title= "SUBSCRIBE to our <span>NEWSLETTER</span>"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+title= "Síguenos en nuestras <span>Redes Sociales</span>"
+
 
 #Mailchimp subscription configaration 
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
@@ -245,7 +210,7 @@ Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher
 #blog 
 [params.blog]
 enable = true
-title = "Latest <span>From</span> the <span>Blog</span>"
+title = "Lo <span>último</span> de nuestro <span>Blog</span>"
 
 
 
