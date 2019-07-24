@@ -160,29 +160,22 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
-blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+contactInfoTitle = "Nuestros datos de <span>contacto</span> "
+socialTitle = "Síguenos en redes <span>Sociales</span>"
 
 [[params.footer.contactItem]]
-title="Telephone"
+title="Teléfono"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "+56 9 7426 4079"
 
 [[params.footer.contactItem]]
-title="Address"
-icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
-
-[[params.footer.contactItem]]
-title="E mail"
+title="Correo"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "contacto@ceuschile.cl"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
+link = "https://fb.com/ceuschile"
 
 
 [[params.footer.socialLink]]
@@ -190,12 +183,8 @@ icon = "twitter"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "https://www.instagram.com/ceus_chile"
 
 
 #Footer Copyright

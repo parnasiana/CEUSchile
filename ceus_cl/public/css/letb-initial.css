@@ -143,7 +143,7 @@ img.slide-img-ceus{
     font-size: 60px;
     cursor: pointer;
     color: #FFF;
-    top: 2500px;
+    top: 250px;
 }
 
 #hero-arrow-r {
@@ -366,12 +366,20 @@ h6.slide-text{
     justify-content: space-between;
 }
 
-.instafeed{
+#instafeed{
     width: 60%;
 }
 
-.ceus-video{
-    width: 30%
+.yutub-tuiter{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.ceus-video{
+    width: 100%;
+}
+
 
   
