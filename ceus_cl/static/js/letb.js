@@ -31,15 +31,3 @@ $('.owl-carousel').owlCarousel({
     dots: true,
 });
 
-$('#instafeed').ready(function(){
-    var feed = new Instafeed({
-        get: 'user',
-        clientId: 'e407f7618bfd4a02a9465ae2c8a1d60f',
-        accessToken: '4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d',
-        template: '<a href="{{link}}"><img src="{{image}}" /></a>',
-        sortBy: 'monst-recent',
-        limit: 9,
-    });
-
-    feed.run();
-};
