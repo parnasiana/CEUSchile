@@ -31,10 +31,10 @@ $('.owl-carousel').owlCarousel({
     dots: true,
 });
 
-var feed = new Instafeed({
-    get: 'user',
-    userId: e407f7618bfd4a02a9465ae2c8a1d60f, // Ex: 1374300081
-    accessToken: '4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d'
-  });
-  feed.run();
-
+twttr.widgets.createTimeline(
+    {
+      sourceType: "profile",
+      screenName: "TwitterDev"
+    },
+    document.getElementById("container")
+  );

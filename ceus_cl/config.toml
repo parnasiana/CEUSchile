@@ -161,7 +161,7 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 [params.footer]
 enable = true
 contactInfoTitle = "Nuestros datos de <span>contacto</span> "
-socialTitle = "Síguenos en redes <span>Sociales</span>"
+socialTitle = "Síguenos en redes <span>sociales</span>"
 
 [[params.footer.contactItem]]
 title="Teléfono"
@@ -176,6 +176,7 @@ content = "contacto@ceuschile.cl"
 [[params.footer.socialLink]]
 icon = "facebook"
 link = "https://fb.com/ceuschile"
+
 
 
 [[params.footer.socialLink]]

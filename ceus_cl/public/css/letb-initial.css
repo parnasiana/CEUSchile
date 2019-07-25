@@ -354,6 +354,11 @@ h6.slide-text{
       width: 100%;
   }
 
+#suscribe{
+    background-color: #43C11F;
+    padding: 100px 0px 0px;
+}
+
   #subscribe:before {
     display: none;
 }
@@ -379,7 +384,50 @@ h6.slide-text{
 
 .ceus-video{
     width: 100%;
+    height: 50%;
 }
 
+.twitter-timeline{
+    width: 100%;
+    height: 50%;
+}
 
+#footer {
+    padding: 50px 10%;
+    background-color: #0C295B;
+}
+
+#footer .block .info ul li p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+#footer .block h3, #footer .block .info ul li h4, #footer .block .info ul li p, #footer .block .info ul li h4 i, .social-media-link h3 {
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+#footer .block h3 span, .social-media-link h3 span {
+    color: #158976;
+}
+
+a.rrss-btns{
+    color: #FFF;
+    font-size: 30px;
+}
+.social-media-link ul{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-top: 20px;
+}
+
+.social-media-link ul{
+padding-bottom: 10px;
+}
+
+.foot-logo{
+    width: 
+}
+      
   
