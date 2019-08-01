@@ -287,12 +287,14 @@ h6.slide-text{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .ceus-allies{
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    margin: 25px;
 }
 
 #blog {
