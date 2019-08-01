@@ -47,7 +47,7 @@ command = "hugo --gc --minify"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "hero-area"
+    URL = "navigation"
     weight = 1
 
     [[menu.nav]]
@@ -189,16 +189,19 @@ icon = "fa fa-envelope"
 content = "contacto@ceuschile.cl"
 
 [[params.footer.socialLink]]
+title="/ceuschile"
 icon = "facebook"
 link = "https://fb.com/ceuschile"
 
 
 
 [[params.footer.socialLink]]
+title="@CEUS_Chile"
 icon = "twitter"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
+title="@ceus_chile"
 icon = "instagram"
 link = "https://www.instagram.com/ceus_chile"
 

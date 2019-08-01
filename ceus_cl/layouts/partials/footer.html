@@ -9,7 +9,7 @@
                 </div>
                 <!-- .col-md-4 close -->
                 <div class="col-md-4">
-                        <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                        <div class="block wow fadeInLeft foot-information"  data-wow-delay="200ms">
                                 <h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
                                 <div class="info">
                                     <ul>
@@ -26,20 +26,21 @@
                 </div>
                 <!-- .col-md-4 close -->
                 <div class="col-md-4">
-                    <div class="social-media-link">
-                            <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                    <div class="block wow fadeInLeft foot-information"  data-wow-delay="200ms">
+                        <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
                             <ul>
-                                {{ range $.Site.Params.footer.socialLink }}
-                                <li>
+                                {{ range $.Site.Params.footer.socialLink }} 
+                                <li class="list-social">
                                     <a href="{{ .link }}" class="rrss-btns">
                                         <i class="fa fa-{{ .icon }}"></i>
+                                        <p class="social-title-foot">{{.title}}</p>
                                     </a>
                                 </li>
                                 {{ end }}
                             </ul>
                         </div>
                     </div>
-                </div>
+                
                 <!-- .col-md-4 close -->
             </div><!-- .row close -->
         </div><!-- .containe close -->
