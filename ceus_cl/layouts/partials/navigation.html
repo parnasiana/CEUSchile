@@ -26,7 +26,7 @@
                             {{ if .IsHome }}        
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                <li><a href="#hero-area">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                
                                 {{ range $.Site.Menus.nav }}
                                   <li><a href="#{{ .URL }}">{{ .Name }}</a></li>
                                 {{ end }}
