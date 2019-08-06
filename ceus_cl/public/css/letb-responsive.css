@@ -257,7 +257,7 @@ nav .block .navbar-default .navbar-nav {
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 15px 0;
 }
 
 h6.slide-text {
@@ -302,6 +302,25 @@ h6.slide-text {
   /*--
     slider Start
 --*/
+
+.title h3 {
+  text-transform: none;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.owl-next{
+  display: none;
+}
+
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  margin: 0 8px;
+}
+
   #slider .block {
     padding-left: 0px;
     padding-right: 0px;
@@ -312,7 +331,6 @@ h6.slide-text {
   }
   #slider .block .owl-carousel div img {
     width: 100%;
-    height: 220px;
     border-radius: 5px;
     padding-right: 0px;
   }
@@ -320,14 +338,39 @@ h6.slide-text {
     about-us Start
 --*/
   #about-us {
-    padding: 70px 0;
+    padding: 0;
   }
+
+.heading {
+  padding: 50px 0 20px;
+
+}
+
+.heading:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 150px;
+  height: 2px;
+  background: #158976;
+  margin-left: -70px;
+}
+
   #about-us .block p {
     padding: 40px 0px 0px;
   }
-  /*--
-    custom title Start
---*/
+
+/*--allies--*/
+
+.ceus-allies {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+  /*--custom title Start--*/
   #title h2 {
     font-size: 20px;
   }
@@ -383,9 +426,35 @@ h6.slide-text {
   #blog .block .btn-more-info:hover {
     border-radius: 10px;
   }
-  /*--
-    price Start
---*/
+  /*--Form-call--*/
+
+  #price {
+    padding: 50px 0;
+  }
+
+  h6.call-text{
+    font-size: 40px;
+    padding: 0 0 40px;
+    line-height: 40px;
+  }
+
+  .text-call{
+    width:100%;
+    padding: 0 0 50px;
+  }
+
+  p.explain-call, a.link-toform {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    color: #FFF;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.img-responsive-square{
+  width: 100%;
+}
+
   #price .block p {
     padding: 40px 0px 0px;
   }
@@ -407,9 +476,19 @@ h6.slide-text {
     float: inherit;
     padding: 28px 100px;
   }
+
+  .form-call {
+    flex-direction: column;
+  }
+
   /*--
     subscribe Start
 --*/
+
+#subscribe {
+  padding: 0;
+}
+
   #subscribe .block h1 {
     font-size: 30px;
   }
@@ -438,6 +517,24 @@ h6.slide-text {
   /*--
     contact-us Start
 --*/
+
+.rrss-group{
+  flex-direction: column;
+}
+
+#instafeed{
+  width: 100%;
+}
+
+.yutub-tuiter{
+  width: 100%;
+}
+
+.instagram-media{
+  min-width: none;
+}
+
+
   #contact-us {
     padding: 60px 0 0;
   }
@@ -449,6 +546,21 @@ h6.slide-text {
   /*--
     footer Start
 --*/
+
+.foot-logo img{
+  width: 100%;
+}
+
+.col-md-4{
+  padding-bottom: 50px;
+
+}
+
+#footer .block h3, #footer .block .info ul li h4, #footer .block .info ul li p, #footer .block .info ul li h4 i, .social-media-link h3 {
+  color: #FFF;
+  font-size: 18px;
+}
+
   #footer .block {
     padding-bottom: 50px;
   }

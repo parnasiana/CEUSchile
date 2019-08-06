@@ -23,12 +23,23 @@ $('#hero-arrow-l').click(function() {
 });
 
 $('.owl-carousel').owlCarousel({
-    items: 3,    
     loop:true,
-    margin:120,
+    margin:50,
     nav:true,
     navText: ["","<i class='fa fa-angle-right arrow-owl-ceus'></i>"],
     dots: true,
+    responsive:{
+        0: {
+            items:1
+        },
+        600: {
+            items:1
+        },
+        768:{
+            items:3
+        }
+    }
+    
 });
 
 twttr.widgets.createTimeline(
