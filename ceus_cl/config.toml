@@ -4,7 +4,7 @@ title = "CEUS Chile | La red de sustentabilidad"
 theme="restaurant-hugo"
 summaryLength = "7"
 js= ["static/letb.js"]
-inst_access = "4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d"
+
 
 
 [context.production.environment]
