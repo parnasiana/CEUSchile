@@ -250,6 +250,55 @@ nav .block .navbar-default .navbar-nav {
   padding: 10px 0;
 }
 
+/*-- Hero-area -- */
+.phraseimg-ceus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h6.slide-text {
+  font-family: 'Work Sans', sans-serif;
+  font-size:26px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.frame-ceus-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-link-ceus {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#hero-arrow-r {
+  right: 8%;
+  font-size: 48px;
+  cursor: pointer;
+  color: rgb(114, 145, 250);
+  top: 250px;
+}
+
+#hero-arrow-l {
+  left: 8%;
+  font-size: 48px;
+  cursor: pointer;
+  color: rgb(114, 145, 250);
+  top: 250px;
+}
+
   /*--
     slider Start
 --*/
