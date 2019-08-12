@@ -369,30 +369,22 @@ h6.slide-text{
     width: 100%;
     padding: 70px 10%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#instafeed{
-    width: 60%;
-}
-
-.yutub-tuiter{
-    width: 40%;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.ceus-video{
-    width: 100%;
-    height: 50%;
+.instafeed{
+    display: flex;
+    flex-direction: row;
+    overflow: overlay;
 }
 
-.twitter-timeline{
-    width: 100%;
-    height: 50%;
-}
+
+
+
+
+
+
 
 /*--FOOTER--*/
 

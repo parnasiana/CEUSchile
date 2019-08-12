@@ -240,7 +240,7 @@ px      68    160    252    */
 }
 
 nav .block .navbar-default .navbar-nav {
-  padding: 150px 0;
+  padding: 0;
 }
 
 .navbar-nav {
@@ -584,5 +584,9 @@ h6.slide-text {
   #footer-bottom .block p {
     text-align: center;
     padding-top: 0px;
+  }
+
+  #footer{
+    padding: 50px 10% 0;
   }
 }
