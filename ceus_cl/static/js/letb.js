@@ -53,7 +53,7 @@ $('.owl-carousel').owlCarousel({
 
  function buildNext(url){
      $('.next-button').remove();
-     let $button =$('<button>', {onclick:'buildPosts("'+url+'")', class:'next-button', text: 'Muéstrame más'});
+     let $button =$('<button>', {onclick:'buildPosts("'+url+'")', class:'next-button'});
          $('.instafeed').append($button);
  }
 

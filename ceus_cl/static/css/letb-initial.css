@@ -379,6 +379,20 @@ h6.slide-text{
     overflow: overlay;
 }
 
+.post-insta{
+    margin-right: 20px;
+}
+
+.next-button{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 160px 0 160px 100px;
+    border-color: transparent transparent transparent #158976;
+    background: transparent;
+    
+}
+
 
 
 
