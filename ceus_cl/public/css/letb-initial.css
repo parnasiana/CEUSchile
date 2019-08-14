@@ -373,10 +373,29 @@ h6.slide-text{
     justify-content: space-between;
 }
 
+h2.subtitle-rrss{
+    color: rgba(190, 190, 190);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 .instafeed{
     display: flex;
     flex-direction: row;
-    overflow: overlay;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-insta{
+    margin-bottom: 20px;
+}
+
+.next-button{
+    background: #158976;
+    color: #FFF;
+    border: 2px outset #093a3279;
+    border-radius: 2px;
+    padding: 10px 0;
 }
 
 

@@ -53,8 +53,8 @@ $('.owl-carousel').owlCarousel({
 
  function buildNext(url){
      $('.next-button').remove();
-     let $button =$('<button>', {onclick:'buildPosts("'+url+'")', class:'next-button'});
-         $('.instafeed').append($button);
+     let $button =$('<button>', {onclick:'buildPosts("'+url+'")', class:'next-button', text: 'Cargar más'});
+         $('.instafeed').after($button);
  }
 
  function buildPosts(url){
@@ -72,6 +72,6 @@ $('.owl-carousel').owlCarousel({
  }
 
  $(document).ready(function(){
-     const url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d";
+     const url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d&count=9";
      buildPosts(url);
  });

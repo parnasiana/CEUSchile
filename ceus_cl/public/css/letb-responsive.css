@@ -522,17 +522,17 @@ h6.slide-text {
   flex-direction: column;
 }
 
-#instafeed{
-  width: 100%;
+.instafeed{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.yutub-tuiter{
-  width: 100%;
+.post-insta{
+  margin-right: 0px;
+  margin-bottom: 20px;
 }
 
-.instagram-media{
-  min-width: none;
-}
 
 
   #contact-us {
