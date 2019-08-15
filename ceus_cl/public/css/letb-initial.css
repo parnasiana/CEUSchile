@@ -398,6 +398,18 @@ h2.subtitle-rrss{
     padding: 10px 0;
 }
 
+.youtube-tw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.twitter-box{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
 
 
 
