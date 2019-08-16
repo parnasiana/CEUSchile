@@ -6,7 +6,6 @@ summaryLength = "7"
 js= ["static/letb.js"]
 
 
-
 [context.production.environment]
     HUGO_VERSION = "0.55.6"
     HUGO_ENV = "production"
@@ -47,12 +46,12 @@ command = "hugo --gc --minify"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "navigation"
+    URL = "hero-area"
     weight = 1
 
     [[menu.nav]]
     name = "Sobre Nosotros"
-    URL = "hero-area"
+    URL = ""
     weight = 2
 
     [[menu.nav]]

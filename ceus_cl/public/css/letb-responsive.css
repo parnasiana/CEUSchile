@@ -533,6 +533,24 @@ h6.slide-text {
   margin-bottom: 20px;
 }
 
+.youtube-tw{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.twitter-box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.youtube-box{
+  margin-top: 70px;
+  width: 100%;
+}
 
 
   #contact-us {

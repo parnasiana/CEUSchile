@@ -396,6 +396,7 @@ h2.subtitle-rrss{
     border: 2px outset #093a3279;
     border-radius: 2px;
     padding: 10px 0;
+    margin-bottom: 70px;
 }
 
 .youtube-tw{
@@ -414,8 +415,13 @@ h2.subtitle-rrss{
 
 .youtube-box{
     margin-top: 70px;
+    width: 45%;
 }
 
+.yt-video{
+    width: 100%;
+    height: -webkit-fill-available;
+}
 
 
 
