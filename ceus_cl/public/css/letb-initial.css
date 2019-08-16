@@ -402,13 +402,20 @@ h2.subtitle-rrss{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .twitter-box{
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin-top: 70px;
 }
+
+.youtube-box{
+    margin-top: 70px;
+}
+
 
 
 
