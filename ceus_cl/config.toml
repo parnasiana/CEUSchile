@@ -6,6 +6,7 @@ summaryLength = "7"
 js= ["static/letb.js"]
 
 
+
 [context.production.environment]
     HUGO_VERSION = "0.55.6"
     HUGO_ENV = "production"
@@ -46,7 +47,7 @@ command = "hugo --gc --minify"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "hero-area"
+    URL = "index"
     weight = 1
 
     [[menu.nav]]

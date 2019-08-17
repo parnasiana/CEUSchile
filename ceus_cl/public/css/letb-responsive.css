@@ -608,3 +608,38 @@ h6.slide-text {
     padding: 50px 10% 0;
   }
 }
+
+
+/*--- ABOUT US---*/
+
+.welcome-about{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_hero-about-responsive.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.who-descript{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10% 50px;
+}
+
+.who-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.descript-text{
+  color: #FFF;
+  padding: 30px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.2);
+  width: 100%;
+  border-radius: 20px;
+}
