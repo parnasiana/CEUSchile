@@ -222,7 +222,10 @@ enable = true
 title = "Lo <span>último</span> de nuestro <span>Blog</span>"
 
 
-
+#aboutUs
+[params.aboutUs]
+enable = true
+title = "Los ejes <span>temáticos</span> de CEUS"
 
 
 

@@ -607,8 +607,6 @@ h6.slide-text {
   #footer{
     padding: 50px 10% 0;
   }
-}
-
 
 /*--- ABOUT US---*/
 
@@ -642,4 +640,6 @@ h6.slide-text {
   background: rgba(255,255,255,0.2);
   width: 100%;
   border-radius: 20px;
+}
+
 }
