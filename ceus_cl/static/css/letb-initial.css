@@ -542,7 +542,7 @@ padding-bottom: 10px;
 #axes-holder{
     width: 100%;
     height: auto;
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
 .axes-draw{
@@ -550,6 +550,7 @@ padding-bottom: 10px;
     height: 700px;
     margin: 70px auto;
     position: relative;
+    z-index: 0;
 }
 
 .axes-draw:before, .axes-draw:after {
@@ -570,7 +571,57 @@ padding-bottom: 10px;
     height: 6px;
     width: 100%;
   }
-  
+
+  .logo-axes{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 6px solid #158976;
+    border-radius: 80px;
+    z-index: 1;
+    margin: 0 auto;
+    top:40%;
+    background-color: #FFF;
+  }
+
+  .logo-axes img {
+    width:90%;
+    margin: auto;
+    padding:10px;
+  }
+
+h2.text-axes{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #158976;
+    width: fit-content;
+    position: absolute;
+}
+
+.education{
+    top:58px;
+    left: 40%;
+    transform: rotate(-90deg);
+}
+
+.society{
+    top:45%;
+    right: 0;
+}
+
+.environment{
+    bottom:35px;
+    left: 40%;
+    transform: rotate(-90deg);
+}
+
+.developmentS{
+    top: 41%;
+    left:0;
+}
+
+
+
 
 
 
