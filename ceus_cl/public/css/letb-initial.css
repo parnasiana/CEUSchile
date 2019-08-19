@@ -581,3 +581,18 @@ padding-bottom: 10px;
     width: 80%;
     margin: auto;
 }
+
+a.bt-axes  p{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+    color: #158976;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    width: fit-content;
+}
+
+.bt-axes-education p, .bt-axes-environment p{
+    transform: rotateZ(-90deg);    
+}
+
