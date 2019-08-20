@@ -606,8 +606,17 @@ padding-bottom: 10px;
     font-size: 30px;
 }
 
+.axesIn-text{
+    font-size: 20px;
+    color:#fff;
+    text-align: right;
+    width: 80%;
+    margin:20px auto 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
 .education{
-    transform: rotate(-90deg) translate(139px, 236px);
+    transform: rotate(-90deg);
     
 }
 
@@ -633,14 +642,44 @@ padding-bottom: 10px;
     
 .axespop-content {
     visibility:hidden;
+    position: absolute;
 }
 
-.axespop-overlay.active{
+.axespop-overlay.appear{
     visibility:visible;
+    position: relative;
+    z-index: 4;
 }
     
-.axespop-content.active {
+.axespop-content.appear {
     visibility:visible;
+    background-color: #158976;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.axesIn-title{
+    color:#FFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.axes-close{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #158976;
+    width: fit-content;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 60px;
+    top: -80px;
+}
+.axespop-content img {
+    width: 400px;
 }
 
 /*--HISTORY--*/

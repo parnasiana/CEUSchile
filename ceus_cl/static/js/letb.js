@@ -79,9 +79,9 @@ $('.owl-carousel').owlCarousel({
 /*--POP-UP AXES--*/
 
 $(".axes-open").on("click", function() {
-    $(".axespop-overlay, .axespop-content").addClass("active");
+    $(".axespop-overlay, .axespop-content").addClass("appear");
   });
 
 $(".axes-close, .axespop-overlay").on("click", function() {
-$(".axespop-overlay, .axespop-content").removeClass("active");
+$(".axespop-overlay, .axespop-content").removeClass("appear");
 });
