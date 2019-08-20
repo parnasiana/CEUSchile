@@ -234,5 +234,8 @@ title = "Los ejes <span>temáticos</span> de CEUS"
 enable = true
 title = "Nuestra <span>historia</span>"
 
-
+#organization
+[params.organization]
+enable = true
+title = "Nuestro <span>organigrama</span>"
 
