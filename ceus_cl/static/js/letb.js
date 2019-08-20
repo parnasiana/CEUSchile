@@ -76,4 +76,12 @@ $('.owl-carousel').owlCarousel({
      buildPosts(url);
  });
 
+/*--POP-UP AXES--*/
 
+$(".axes-open").on("click", function() {
+    $(".axespop-overlay, .axespop-content").addClass("active");
+  });
+
+$(".axes-close, .axespop-overlay").on("click", function() {
+$(".axespop-overlay, .axespop-content").removeClass("active");
+});

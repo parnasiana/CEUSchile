@@ -550,7 +550,7 @@ padding-bottom: 10px;
 }
 
 .axes-draw{
-    width: 100%;
+    width: 700px;
     height: 700px;
     margin: 70px auto;
     position: relative;
@@ -594,18 +594,21 @@ padding-bottom: 10px;
     padding:10px;
   }
 
-h2.text-axes{
+.text-axes{
     text-transform: uppercase;
     font-weight: 600;
     color: #158976;
     width: fit-content;
     position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
 }
 
 .education{
-    top:58px;
-    left: 40%;
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) translate(139px, 236px);
+    
 }
 
 .society{
@@ -624,10 +627,27 @@ h2.text-axes{
     left:0;
 }
 
+.axespop-overlay {
+    visibility:hidden;
+}
+    
+.axespop-content {
+    visibility:hidden;
+}
+
+.axespop-overlay.active{
+    visibility:visible;
+}
+    
+.axespop-content.active {
+    visibility:visible;
+}
+
+/*--HISTORY--*/
 #history{
     background-color: #F4F2F2;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 #history-holder{
@@ -639,10 +659,12 @@ h2.text-axes{
     margin: 70px auto;
 }
 
+/*--ORGANIZATION--*/
+
 #organization{
     background-color: #B5E541;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 #organization-holder{
