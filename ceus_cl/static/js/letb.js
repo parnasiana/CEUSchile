@@ -78,10 +78,19 @@ $('.owl-carousel').owlCarousel({
 
 /*--POP-UP AXES--*/
 
-$(".axes-open").on("click", function() {
-    $(".axespop-overlay, .axespop-content").addClass("appear");
+$(".edu-open").on("click", function() {
+    $(".edu-over, .edu-cont").addClass("appear");
   });
 
-$(".axes-close, .axespop-overlay").on("click", function() {
-$(".axespop-overlay, .axespop-content").removeClass("appear");
+$(".edu-close, .edu-over").on("click", function() {
+$(".edu-over, .edu-cont").removeClass("appear");
 });
+
+$(".soc-open").on("click", function() {
+    $(".soc-over, .soc-cont").addClass("appear");
+  });
+
+$(".soc-close, .soc-over").on("click", function() {
+$(".soc-over, .soc-cont").removeClass("appear");
+});
+

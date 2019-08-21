@@ -555,7 +555,7 @@ padding-bottom: 10px;
 .axes-draw{
     width: 700px;
     height: 700px;
-    margin: 180px auto;
+    margin: 200px auto;
     position: absolute;
     z-index: 0;
 }
@@ -623,13 +623,13 @@ button:focus {
 
 .education{
     transform: rotate(-90deg);
-    top:114px;
+    top:135px;
     right: 20px;
 }
 
 .society{
-    top:45%;
-    right: 0;
+    bottom: -335px;
+    left: 276px;
 }
 
 .environment{
