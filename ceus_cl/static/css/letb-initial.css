@@ -639,9 +639,11 @@ button:focus {
     line-height: 30px
 }
 
-.developmentS{
-    top: 41%;
-    left:0;
+.development{
+    text-align: left;
+    bottom: -205px;
+    line-height: 30px;
+    right: 244px;
 }
 
 .axespop-overlay {

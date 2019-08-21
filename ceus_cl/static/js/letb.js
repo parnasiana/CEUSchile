@@ -105,3 +105,12 @@ $(".env-open").on("click", function() {
 $(".env-close, .env-over").on("click", function() {
 $(".env-over, .env-cont").removeClass("appear");
 });
+
+/*--development popup--*/
+$(".dev-open").on("click", function() {
+    $(".dev-over, .dev-cont").addClass("appear");
+  });
+
+$(".dev-close, .dev-over").on("click", function() {
+$(".dev-over, .dev-cont").removeClass("appear");
+});
