@@ -550,7 +550,7 @@ padding-bottom: 10px;
 }
 
 .axes-draw{
-    width: 100%;
+    width: 700px;
     height: 700px;
     margin: 70px auto;
     position: relative;
@@ -594,18 +594,30 @@ padding-bottom: 10px;
     padding:10px;
   }
 
-h2.text-axes{
+.text-axes{
     text-transform: uppercase;
     font-weight: 600;
     color: #158976;
     width: fit-content;
     position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.axesIn-text{
+    font-size: 20px;
+    color:#fff;
+    text-align: right;
+    width: 80%;
+    margin:20px 0 0 20%;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .education{
-    top:58px;
-    left: 40%;
     transform: rotate(-90deg);
+    
 }
 
 .society{
@@ -624,10 +636,87 @@ h2.text-axes{
     left:0;
 }
 
+.axespop-overlay {
+    visibility:hidden;
+}
+    
+.axespop-content {
+    visibility:hidden;
+    position: absolute;
+    height: 700px;
+    padding: 5%;
+}
+
+.axespop-overlay.appear{
+    visibility:visible;
+    position: relative;
+    z-index: 4;
+}
+    
+.axespop-content.appear {
+    visibility:visible;
+}
+
+.appear{
+    background-color: #158976;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    top:-75px;
+    justify-content: space-between;
+}
+
+.bott-axesIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-axesIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: -90px;
+}
+
+.axesIn-title{
+    color:#FFF;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.axes-close{
+    font-weight: 600;
+    color: #158976;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 0;
+    line-height: 1;
+    margin-left: 100%;
+    margin-bottom: 40px;
+}
+
+.axes-close i{
+    line-height: 0;
+}
+
+.axesIn-img {
+    width: 50%;
+    margin-left: 50%;
+}
+
+/*--HISTORY--*/
 #history{
     background-color: #F4F2F2;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 #history-holder{
@@ -639,10 +728,12 @@ h2.text-axes{
     margin: 70px auto;
 }
 
+/*--ORGANIZATION--*/
+
 #organization{
     background-color: #B5E541;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 #organization-holder{
