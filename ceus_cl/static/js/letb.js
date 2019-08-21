@@ -78,6 +78,8 @@ $('.owl-carousel').owlCarousel({
 
 /*--POP-UP AXES--*/
 
+
+/*--education popup--*/
 $(".edu-open").on("click", function() {
     $(".edu-over, .edu-cont").addClass("appear");
   });
@@ -86,6 +88,7 @@ $(".edu-close, .edu-over").on("click", function() {
 $(".edu-over, .edu-cont").removeClass("appear");
 });
 
+/*--society popup--*/
 $(".soc-open").on("click", function() {
     $(".soc-over, .soc-cont").addClass("appear");
   });
@@ -94,3 +97,11 @@ $(".soc-close, .soc-over").on("click", function() {
 $(".soc-over, .soc-cont").removeClass("appear");
 });
 
+/*--environment popup--*/
+$(".env-open").on("click", function() {
+    $(".env-over, .env-cont").addClass("appear");
+  });
+
+$(".env-close, .env-over").on("click", function() {
+$(".env-over, .env-cont").removeClass("appear");
+});
