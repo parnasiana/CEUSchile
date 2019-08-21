@@ -545,15 +545,18 @@ padding-bottom: 10px;
 /*-- AXES SECTION--*/
 #axes-holder{
     width: 100%;
-    height: auto;
+    height: 1000px;
     padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .axes-draw{
     width: 700px;
     height: 700px;
-    margin: 70px auto;
-    position: relative;
+    margin: 180px auto;
+    position: absolute;
     z-index: 0;
 }
 
@@ -594,12 +597,16 @@ padding-bottom: 10px;
     padding:10px;
   }
 
+button:focus {
+    outline:0;
+}
+
 .text-axes{
     text-transform: uppercase;
     font-weight: 600;
     color: #158976;
     width: fit-content;
-    position: absolute;
+    position: relative;
     border: none;
     background: none;
     cursor: pointer;
@@ -617,7 +624,8 @@ padding-bottom: 10px;
 
 .education{
     transform: rotate(-90deg);
-    
+    top:114px;
+    right: 20px;
 }
 
 .society{
