@@ -543,6 +543,10 @@ padding-bottom: 10px;
 }
 
 /*-- AXES SECTION--*/
+
+#axes{
+    padding:100px 0 0;
+}
 #axes-holder{
     width: 100%;
     height: 1000px;
@@ -554,7 +558,7 @@ padding-bottom: 10px;
 
 .axes-draw{
     width: 700px;
-    height: 700px;
+    height: 550px;
     margin: 200px auto;
     position: absolute;
 }
@@ -612,7 +616,7 @@ button:focus {
 }
 
 .axesIn-text{
-    font-size: 20px;
+    font-size: 16px;
     color:#fff;
     text-align: right;
     width: 100%;
@@ -627,13 +631,13 @@ button:focus {
 }
 
 .society{
-    bottom: -335px;
+    bottom: -260px;
     left: 276px;
 }
 
 .environment{
     transform: rotate(-90deg);
-    top:574px;
+    top:424px;
     text-align: left;
     right: 35px;
     line-height: 30px
@@ -641,7 +645,7 @@ button:focus {
 
 .development{
     text-align: left;
-    bottom: -205px;
+    bottom: -130px;
     line-height: 30px;
     right: 244px;
 }
@@ -653,7 +657,7 @@ button:focus {
 .axespop-content {
     visibility:hidden;
     position: absolute;
-    height: 700px;
+    height: 550px;
     padding: 5%;
 }
 
@@ -695,7 +699,6 @@ button:focus {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom:30px;
 }
 
 .axes-close{
@@ -718,8 +721,8 @@ button:focus {
 }
 
 .axesIn-img {
-    width: 50%;
-    margin-left: 50%;
+    width: 35%;
+    margin-left: 65%;
 }
 
 /*--HISTORY--*/
