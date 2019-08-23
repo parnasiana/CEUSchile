@@ -10,14 +10,14 @@
                     <div id="owl-example" class="owl-carousel">
                         {{ range $.Site.Params.team.item }}
                             <div class="team-square">
-                                    <img class="img-responsive" src="{{ .img | absURL }}" alt="">
-                                        <div class="overlay-team">
-                                          <div class="all-text-team">
-                                            <div class="text-team-name">{{ .Name }}</div>
-                                            <div class="text-team-position">{{ .Position }}</div>
-                                            <div class="text-team-description">{{ .description }}</div>
-                                        </div>
-                                        </div>
+                                <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                <div class="overlay-team">
+                                    <div class="all-text-team">
+                                    <div class="text-team-name">{{ .Name }}</div>
+                                    <div class="text-team-position">{{ .Position }}</div>
+                                    <div class="text-team-description">{{ .description }}</div>
+                                    </div>
+                                </div>
                             </div>
                         {{ end }}
                     </div>

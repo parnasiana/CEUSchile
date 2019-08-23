@@ -814,7 +814,8 @@ button:focus {
     color: #FFF;
     text-align: justify;
     margin: auto;
-    font-size: 12px
+    font-size: 12px;
+    line-height: 12px;
 }
 
 #team-slider{

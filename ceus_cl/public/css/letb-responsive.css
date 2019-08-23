@@ -610,6 +610,8 @@ h6.slide-text {
 
 /*--- ABOUT US---*/
 
+/*--- Hero-about--*/
+
 .welcome-about{
   background-image: url(https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_hero-about-responsive.jpg);
   width: 100%;
@@ -640,6 +642,98 @@ h6.slide-text {
   background: rgba(255,255,255,0.2);
   width: 100%;
   border-radius: 20px;
+}
+
+
+/*--Axes--*/
+#axes{
+  padding: 0;
+}
+
+#axes-holder{
+  height: 610px;
+  padding: 0 10%;
+}
+
+.axes-draw {
+  width: 280px;
+  height: 350px;
+  margin: 200px auto;
+  position: absolute;
+}
+
+.logo-axes {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.logo-axes img {
+  width: 60px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.text-axes {
+  font-size: 14px;
+}
+
+.education{
+  top: 104px;
+  right: 8px;
+}
+
+.society{
+  bottom: -208px;
+  left: 105px;
+}
+
+.environment{
+  top: 328px;
+  right: 16px;
+  line-height: 16px;
+}
+
+.development{
+  bottom: -138px;
+  line-height: 16px;
+  right: 91px;
+}
+
+.axespop-content {
+  height: 350px;
+  padding: 5%;
+}
+
+.appear{
+  top: -40px;
+}
+
+.top-axesIn{
+  top:-45px;
+}
+
+.axes-close{
+  font-size:24px;
+  margin-bottom: 16px;
+}
+
+.axesIn-title{
+  font-size: 24px;
+}
+
+.axesIn-text {
+  font-size: 11px;
+  text-align: justify;
+  width: 100%;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.axesIn-img {
+  width: 40%;
+  margin-left: 62%;
 }
 
 }

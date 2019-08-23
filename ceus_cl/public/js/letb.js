@@ -114,3 +114,6 @@ $(".dev-open").on("click", function() {
 $(".dev-close, .dev-over").on("click", function() {
 $(".dev-over, .dev-cont").removeClass("appear");
 });
+
+/*--team slider--*/
+

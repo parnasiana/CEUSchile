@@ -251,3 +251,45 @@ img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Isabel_Vil
 Name = "Isabella Villanueva"
 Position = "Presidenta"
 description = "Memorista de ingeniería civil hidráulica, sanitaria y ambiental.Interesada en temas de impacto ambiental, gestión de recursos hídricos y revalorización de recursos. Siempre por una ingeniería al servicio de las necesidades del desarrollo sostenible. Ferviente creyente en la transdisciplina como herramienta y solución a los problemas."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Paula_Castillo.jpg"
+Name = "Paula Castillo"
+Position = "Vicepresidenta"
+description = "Estudiante de Ingeniería Civil Si individualmente somos fuertes, unidos a través de CEUS somos imparables. Sueño con que el país y el mundo sean más amables y empáticos con el entorno."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Fabi%C3%A1n_Provoste.jpg"
+Name = "Fabian Provoste"
+Position = "Secretario General"
+description = "Memorista de Ingeniería Civil, mención Hidráulica, Sanitaria y Ambiental. Me apasiona ser un factor de cambio en cada acción y reflexión, desde la vida personal hasta lo profesional. Me interesa desarrollarme en gestión integral de recursos hídricos e ingeniería ambiental, con una mirada fija hacia el desarrollo sustentable. Ser parte de esta organización representa una forma de concretar y compartir mis valores e ideales junto a más personas que sienten y creen en estos mismos: la sustentabilidad al servicio de la sociedad. Cada grano de arena aporta a cuidar este mundo."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Alexandra_Fuenzalida.jpg"
+Name = "Alexandra Fuenzalida"
+Position = "Directora Ejecutiva"
+description = "Estudiante de Licenciatura en Geofísica. Pertenecer a la ONG fue encontrarme con personas de diferentes gustos, pero con un mismo objetivo: la sustentabilidad y querer cambiar el mundo. Suena imposible, ¡casi estar en las nubes! pero trabajando en equipo, apoyándonos (incluso emocionalmente) y cubriéndonos se han sacado proyectos adelante. Hay 2 elementos fundamentales en mi vida: una es que me apasionan los fenómenos atmosféricos y volcánicos, y la otra es lograr concientizar a mi entorno con mis acciones, donde mi gran sueño es que a través de la sociedad se corra la voz generando un impacto."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_MFrancisca_Asenjo.jpg"
+Name = "María Francisca Asenjo"
+Position = "Directora de RR.HH."
+description = "Ingeniera Civil Industrial. Creo en el poder y la capacidad que tenemos como sociedad de plantearnos y realizar cambios en nuestras acciones, disminuyendo o eliminando las cosas que no benefician a nuestro entorno y planeta. Estas acciones pueden venir de personas naturales u organizaciones como esta, lo importante es que cada quién sienta, crea y piense que las actividades que realiza día a día aportan sin importar su tamaño"
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Kevin_Flores.jpg"
+Name = "Kevin Flores"
+Position = "Director de Contenidos, página web"
+description = "Ingeniero Civil de Minas. Creo y sueño con el desarrollo de una minería sustentable en Chile y el mundo. Miembro de CEUS desde sus inicios, creo en la colaboración y la cooperación como herramientas para encontrar soluciones holísticas a los problemas que enfrenta esta generación."
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Gabriela_Herrera.jpg"
+Name = "Gabriela Herrera"
+Position = "Directora de difusión y RR.SS"
+description = "Estudiante Tercer año de Geofísica. Me interesa el funcionamiento de la tierra, la interacción de sus distintos componentes y cómo desde la actividad humana desequilibramos la balanza de la naturaleza, creo que nuestro deber es volver a poner las cosas en orden, siempre desde una visión crítica, proactiva e integral."
+
+
+
+
+
+
