@@ -1,0 +1,29 @@
+{{ if .Site.Params.team.enable }} 
+<section id="team-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="title">
+                        <h3>{{ with .Site.Params.team.title }} {{ . | safeHTML }} {{ end }}</h3>
+                    </div>
+                    <div id="owl-example" class="owl-carousel">
+                        {{ range $.Site.Params.team.item }}
+                            <div class="team-square">
+                                    <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                        <div class="overlay-team">
+                                          <div class="all-text-team">
+                                            <div class="text-team-name">{{ .Name }}</div>
+                                            <div class="text-team-position">{{ .Position }}</div>
+                                            <div class="text-team-description">{{ .description }}</div>
+                                        </div>
+                                        </div>
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div><!-- .col-md-12 close -->
+        </div><!-- .row close -->
+    </div><!-- .container close -->
+</section><!-- slider close -->
+{{end}}

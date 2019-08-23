@@ -239,3 +239,15 @@ title = "Nuestra <span>historia</span>"
 enable = true
 title = "Nuestro <span>organigrama</span>"
 
+
+#team
+
+[params.team]
+enable = true
+title= "Somos un <span>Equipo</span>"
+
+[[params.team.item]]
+img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/team/ceus_Isabel_Villanueva.jpg"
+Name = "Isabella Villanueva"
+Position = "Presidenta"
+description = "Memorista de ingeniería civil hidráulica, sanitaria y ambiental.Interesada en temas de impacto ambiental, gestión de recursos hídricos y revalorización de recursos. Siempre por una ingeniería al servicio de las necesidades del desarrollo sostenible. Ferviente creyente en la transdisciplina como herramienta y solución a los problemas."

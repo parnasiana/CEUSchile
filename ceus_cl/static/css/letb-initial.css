@@ -758,6 +758,74 @@ button:focus {
     margin: 70px auto;
 }
 
+/*---TEAM---*/
+
+.team-square{
+    border-radius: 20px;
+    position: relative;
+}
+
+.overlay-team{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease-out;
+    background: #158976;
+    border-radius: 20px;
+}
+
+.team-square:hover .overlay-team {
+    opacity: 1;
+}
+
+.all-text-team{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.text-team-name{
+    position: relative;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    font-size: 18px
+}
+
+.text-team-position{
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    font-size: 14px
+}
+
+.text-team-description{
+    position: relative;
+    color: #FFF;
+    text-align: justify;
+    margin: auto;
+    font-size: 12px
+}
+
+#team-slider{
+    padding: 50px 10%;
+}
+
+#team-slider .block .owl-carousel img{
+    padding-right: 0;
+    padding-bottom: 0;
+    border-radius:20px;
+}
 
 
 
