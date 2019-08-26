@@ -55,7 +55,7 @@ command = "hugo --gc --minify"
     URL = "/aboutus/"
     weight = 2
     
-    
+
     [[menu.nav]]
     name = "Blog"
     URL = "#blog"
