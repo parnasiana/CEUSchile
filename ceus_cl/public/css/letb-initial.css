@@ -177,6 +177,9 @@ h6.slide-text{
     font-size: 36px;
     font-weight: 500;
 }
+.title{
+    padding: 0;
+}
 
 .title span {
     color: #158976;
@@ -828,6 +831,10 @@ button:focus {
     border-radius:20px;
 }
 
-
+#team-slider .block .owl-carousel {
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+}
 
 

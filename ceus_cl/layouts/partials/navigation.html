@@ -21,28 +21,16 @@
                                   </a>
                               {{"<!-- logo -->" | safeHTML}}
 
-                            </div>
-
-                            {{ if .IsHome }}        
+                            </div>    
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                
-                                {{ range $.Site.Menus.nav }}
-                                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                {{ end }}
+                                <li><a href="/"class="no-event">Inicio</a></li>
+                                <li><a href="/aboutus/"class="no-event">Sobre Nosotros</a></li>
+                                <li><a href="/#blog "class="no-event">Blog</a></li>
+                                <li><a href="/#price"class="no-event">Colabora</a></li>
+                                <li><a href="/#subscription"class="no-event">Contáctanos</a></li>
                               </ul>
                             </div><!-- /.navbar-collapse -->
-                            {{else}}
-                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                  <li><a data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                                  {{ range $.Site.Menus.nav }}
-                                  <li><a data-scroll href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a></li>
-                                  {{ end }}
-                                </ul>
-                              </div><!-- /.navbar-collapse -->
-                            
-                            {{end}}
                           </div><!-- /.container-fluid -->
                         </nav>
                     </div>
