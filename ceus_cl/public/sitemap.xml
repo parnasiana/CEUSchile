@@ -4,23 +4,16 @@
   
   <url>
     <loc>https://ceus.letb.cl/</loc>
-    <lastmod>2019-08-26T15:35:56-04:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/aboutus/nosotros/</loc>
-    <lastmod>2019-08-26T15:35:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/aboutus/</loc>
-    <lastmod>2019-08-26T15:35:56-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://ceus.letb.cl/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceus.letb.cl/aboutus/</loc>
   </url>
   
   <url>
