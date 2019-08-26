@@ -28,7 +28,7 @@
                               <ul class="nav navbar-nav navbar-right" id="top-nav">
                                 
                                 {{ range $.Site.Menus.nav }}
-                                  <li><a href="#{{ .URL }}">{{ .Name }}</a></li>
+                                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                                 {{ end }}
                               </ul>
                             </div><!-- /.navbar-collapse -->
@@ -37,7 +37,7 @@
                                 <ul class="nav navbar-nav navbar-right" id="top-nav">
                                   <li><a data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                   {{ range $.Site.Menus.nav }}
-                                  <li><a data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
+                                  <li><a data-scroll href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a></li>
                                   {{ end }}
                                 </ul>
                               </div><!-- /.navbar-collapse -->

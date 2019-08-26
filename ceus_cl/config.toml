@@ -47,27 +47,28 @@ command = "hugo --gc --minify"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "index"
+    URL = "/"
     weight = 1
 
     [[menu.nav]]
     name = "Sobre Nosotros"
-    URL = ""
+    URL = "/aboutus/"
     weight = 2
-
+    
+    
     [[menu.nav]]
     name = "Blog"
-    URL = "blog"
+    URL = "#blog"
     weight = 3
 
     [[menu.nav]]
     name = "Colabora con CEUS!"
-    URL = "price"
+    URL = "#price"
     weight = 4
 
     [[menu.nav]]
     name = "Contáctanos"
-    URL = "subscribe"
+    URL = "#subscribe"
     weight = 5
 
 

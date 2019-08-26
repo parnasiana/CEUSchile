@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AboutCEus on CEUS Chile | La red de sustentabilidad</title>
+    <title>Sobre Nosotros | CEUS Chile | La red de sustentabilidad on CEUS Chile | La red de sustentabilidad</title>
     <link>https://ceus.letb.cl/aboutus/</link>
-    <description>Recent content in AboutCEus on CEUS Chile | La red de sustentabilidad</description>
+    <description>Recent content in Sobre Nosotros | CEUS Chile | La red de sustentabilidad on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2019 21:13:21 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 15:35:56 -0400</lastBuildDate>
     
 	<atom:link href="https://ceus.letb.cl/aboutus/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nosotros</title>
+      <link>https://ceus.letb.cl/aboutus/nosotros/</link>
+      <pubDate>Mon, 26 Aug 2019 15:35:56 -0400</pubDate>
+      
+      <guid>https://ceus.letb.cl/aboutus/nosotros/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
