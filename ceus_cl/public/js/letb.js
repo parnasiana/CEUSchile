@@ -73,7 +73,7 @@
         }
         
     });
-     const url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4029417903.1677ed0.5d48eeac74c5491e8ee042a507136c9d&count=9";
+     const url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4029417903.1677ed0.711ab7e3141642d69f196072c9bcd6d9&count=9";
      buildPosts(url);
 
 /*--POP-UP AXES--*/

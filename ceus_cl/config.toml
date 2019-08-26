@@ -289,7 +289,11 @@ Name = "Gabriela Herrera"
 Position = "Directora de difusión y RR.SS"
 description = "Estudiante Tercer año de Geofísica. Me interesa el funcionamiento de la tierra, la interacción de sus distintos componentes y cómo desde la actividad humana desequilibramos la balanza de la naturaleza, creo que nuestro deber es volver a poner las cosas en orden, siempre desde una visión crítica, proactiva e integral."
 
+#bylaw
 
+[params.bylaw]
+enable = true
+title= "Nuestros <span>Estatutos</span> y normativas"
 
 
 
