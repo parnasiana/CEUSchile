@@ -837,4 +837,37 @@ button:focus {
     text-align: center;
 }
 
+/*---BYLAW---*/
+
+#bylaw{
+    width: 100%;
+    height: auto;
+}
+
+.btns-bylaw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 10%;
+}
+
+.btn-bylaw{
+    width: 250px;
+    height: 250px;
+    background-color: #158976;
+    border-radius: 150px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.download-statutes{
+    text-align: center;
+    color: #FFF;
+
+}
+
 
