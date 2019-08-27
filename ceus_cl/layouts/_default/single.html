@@ -10,6 +10,7 @@
                 <h1 class="post-title">{{ .Title }}</h1>
                 <ul class="list-inline mb-50 post-meta">
                     <li class="list-inline-item">{{ .Params.author }}</li>
+                    <li class="list-inline-item">{{ .Params.tags }}</li>
                     <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
                 </ul>
             </div>

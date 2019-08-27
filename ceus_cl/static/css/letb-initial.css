@@ -548,11 +548,11 @@ padding-bottom: 10px;
 /*-- AXES SECTION--*/
 
 #axes{
-    padding:100px 0 0;
+    padding: 70px 0 0;
 }
 #axes-holder{
     width: 100%;
-    height: 1000px;
+    height: 870px;
     padding: 0 20%;
     display: flex;
     flex-direction: column;
@@ -736,7 +736,7 @@ button:focus {
 }
 
 #history-holder{
-    padding: 0 10%;
+    padding: 70px 10%;
 }
 
 #history-holder img{
@@ -753,7 +753,7 @@ button:focus {
 }
 
 #organization-holder{
-    padding: 0 10%;
+    padding: 70px 10%;
 }
 
 #organization-holder img{
@@ -837,6 +837,14 @@ button:focus {
     text-align: center;
 }
 
+#team-slider .block .owl-carousel button.owl-dot {
+    background: #43C11F;
+}
+
+#team-slider .block .owl-carousel button.owl-dot.active{
+    background-color: #158976;
+}
+
 /*---BYLAW---*/
 
 #bylaw{
@@ -862,6 +870,7 @@ button:focus {
     align-items: center;
     padding: 30px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .download-statutes{
