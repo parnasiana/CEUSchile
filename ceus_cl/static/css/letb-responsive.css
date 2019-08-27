@@ -736,4 +736,15 @@ h6.slide-text {
   margin-left: 62%;
 }
 
+/*---BYLAW---*/
+
+.btns-bylaw{
+  flex-direction: column;
+  padding: 50px 10%;
+}
+
+.btn-bylaw{
+  margin: 0 auto 20px;
+}
+
 }
