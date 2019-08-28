@@ -5,7 +5,11 @@ theme="restaurant-hugo"
 summaryLength = "7"
 js= ["static/letb.js"]
 
+[taxonomies]
+  tag = "tags"
 
+[permalinks]
+  blog = "/:filename/"
 
 [context.production.environment]
     HUGO_VERSION = "0.55.6"

@@ -3,7 +3,7 @@ title: "Marcha #15M: ¿Por qué marchamos?"
 date: 2019-08-27T11:26:12-04:00
 draft: true
 author: "Kevin Flores"
-tags: "opinión"
+tags: [ "Opinión", "Medio Ambiente" ]
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg"
 ---
 

@@ -9,9 +9,19 @@
                 <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
                 <h1 class="post-title">{{ .Title }}</h1>
                 <ul class="list-inline mb-50 post-meta">
-                    <li class="list-inline-item">{{ .Params.author }}</li>
-                    <li class="list-inline-item">{{ .Params.tags }}</li>
-                    <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
+                    <li class="list-inline-item">Autor: {{ .Params.author }}</li>
+                    <li class="list-inline-item">Tags:
+                        {{ with .Params.tags }}
+                        <br>                
+                        {{ range . }}
+                        {{ $href := print (absURL "tags/") (urlize .) }}
+                        <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
+                        {{ end }}
+                        {{ end }}
+                    </li>
+                    <li class="list-inline-item">{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+                        <i data-feather="calendar"></i> <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time></li>
                 </ul>
             </div>
             <div class="col-md-8 col-md-offset-2">
