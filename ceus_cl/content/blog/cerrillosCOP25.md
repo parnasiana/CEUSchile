@@ -2,8 +2,12 @@
 title: "Municipio de Cerrillos y Sociedad Civil por la Acción Climática llegan a acuerdo para realizar COP25 Paralela"
 date: 2019-08-28T19:37:35-04:00
 draft: true
-author: "Isabel Villanueva"
-tags: ["Noticias", "Sociedad", "Desarrollo Sustentable"]
+authors:
+  - Isabel Villanueva
+tags:
+  - Noticias
+  - Sociedad
+  - Desarrollo Sustentable
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+3.jpeg"
 ---
 En diciembre de este año, el Parque Bicentenario y el Centro Cultural Tío Lalo Parra de Cerrillos se convertirán en el epicentro mundial de la discusión climática y las propuestas para enfrentar la crisis climática.

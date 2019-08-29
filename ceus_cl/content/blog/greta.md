@@ -2,8 +2,11 @@
 title: "La juventud como agente de cambio: Greta Thunberg"
 date: 2019-08-28T20:15:39-04:00
 draft: true
-author: "Vicente Melo"
-tags: ["Medio Ambiente", "Líderes Sustentables"]
+authors:
+  - Vicente Melo
+tags:
+  - Líderes Sustentables
+  - Medio Ambiente
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+2.png"
 ---
 Desde el año 1999, que la Asamblea General de las Naciones Unidas designó el 12 de agosto como el Día Internacional de la Juventud, una celebración anual que busca promover el papel de las y los jóvenes como agentes esenciales en los procesos de cambio y generar un espacio para generar conciencia sobre los desafíos y problemas a los que estos se enfrentan.
