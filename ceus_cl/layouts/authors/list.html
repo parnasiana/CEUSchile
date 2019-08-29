@@ -1,14 +1,24 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
 
-<h1>{{ .Params.name }}</h1>
-{{ .Render "photo" }}
+{{ partial "navigation.html" . }}
 
-<h2>Bio</h2>
-{{ .Content }}
+<div class="author-section">
+  <div class="about-author">
+    {{ range $.Site.Params.authors.item }}
+      <h1 class="author-title">{{ .Name }}</h1>
+      <div class="profile-author">
+        <img class="avatar-img" src="{{ .avatar | absURL }}">
+        <p class="author-brief">{{ .description }}</p>
+    {{ end }}
+  </div>
+  </div>
+  <div class="articles-holder">
+    <h2>Artículos escritos por el autor</h2>
+    {{ range .Data.Pages }}
+    {{ .Render "article" }}
+    {{ end }}
+  </div>
 
-<h2>Articles</h2>
-{{ range .Data.Pages }}
-  {{ .Render "article" }}
-{{ end }}
+</div>
 
-{{ end }}
+{{ partial "footer.html" . }}
