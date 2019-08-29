@@ -13,10 +13,14 @@
   </div>
   </div>
   <div class="articles-holder">
-    <h2>Artículos escritos por el autor</h2>
-    {{ range .Data.Pages }}
-    {{ .Render "article" }}
+    {{ range $.Site.Params.authors.item }}
+    <h2 class="author-subtitle">Revisa lo que ha escrito {{ .sobre }} en nuestro Blog</h2>
     {{ end }}
+    <div class="articles-cards">
+      {{ range .Data.Pages }}
+      {{ .Render "article" }}
+      {{ end }}
+    </div>
   </div>
 
 </div>

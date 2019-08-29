@@ -304,7 +304,7 @@ h6.slide-text{
     margin: 25px;
 }
 
-#blog {
+#blog, .author-section{
     padding-top: 75px;
     padding-bottom: 100px;
     background: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
@@ -926,9 +926,9 @@ button:focus {
 }
 
 .author-title{
-    font-size:40px;
+    font-size: 40px;
     font-weight: bold;
-    color: #000;
+    color: #158976;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -936,6 +936,7 @@ button:focus {
 .about-author{
     display: flex;
     flex-direction: column;
+    margin-bottom: 70px;
 }
 
 .profile-author{
@@ -961,4 +962,48 @@ button:focus {
     background-color: #158976;
     border-radius:10px;
     box-shadow: 3px 5px 14px -2px rgba(0,0,0,0.75);
+}
+
+.author-subtitle{
+    font-size: 24px;
+    color: #158976;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.articles-holder{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-article{
+    background-color: #FFF;
+    width: 48%;
+    padding: 30px;
+    box-shadow: 3px 5px 14px -2px rgba(0,0,0,0.75);
+}
+
+.block-link{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #43C11F;
+}
+
+.summary-art, .byline{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 20px;
+}
+
+a {
+    color: #B5E541;
 }

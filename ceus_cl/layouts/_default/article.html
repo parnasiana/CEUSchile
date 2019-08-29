@@ -1,12 +1,12 @@
-<article>
+<article class="card-article">
   <div class="block-article">
-    <h3><a href="{{ .Permalink }}" class="block-link">{{ .Title }}</a></h3>
-    <p>
+    <h3 class="title-artlink"><a href="{{ .Permalink }}" class="block-link">{{ .Title }}</a></h3>
+    <p class="summary-art">
       {{ .Summary | truncate 200 }}
-      <a href="{{ .Permalink }}">Read more</a>
+      <a href="{{ .Permalink }}">...Continuar leyendo.</a>
     </p>
     <p class="byline">
-      by {{ .Render "author-link" }}
+     Escrito por: {{ .Render "author-link" }}
     </p>
   </div>
 </article>
