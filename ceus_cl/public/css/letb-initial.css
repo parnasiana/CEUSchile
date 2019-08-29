@@ -880,3 +880,38 @@ button:focus {
 }
 
 
+/**---SINGLE PAGE BLOG ---*/
+
+#blog .block ul {
+    padding: 70px 10%;
+}
+
+.col-md-offset-2{
+    margin: 0 10%;
+}
+
+.col-md-8 {
+    width: 80%;
+    padding: 0;
+}
+
+.blog-single-page .post-title {
+    margin-bottom: 30px;
+}
+
+.post-title{
+    font-size:40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.post-single-content p{
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.extra-img-blog{
+    width: 100%;
+    margin: 30px 0;
+}

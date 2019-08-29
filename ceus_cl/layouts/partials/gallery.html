@@ -9,7 +9,7 @@
                     </div>
                     <div id="owl-example" class="owl-carousel">
                         {{ range $.Site.Params.gallery.item }}
-                            <div class="blog-green">
+                            <a href="{{ .URL }}"><div class="blog-green">
                                     <img class="img-responsive" src="{{ .img | absURL }}" alt="">
                                         <div class="overlay-blog-ceus">
                                             <div class="blog-text-gallery">{{ .ceusBlogTitle }}</div>

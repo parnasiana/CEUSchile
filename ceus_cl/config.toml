@@ -3,9 +3,10 @@ languageCode = "en-us"
 title = "CEUS Chile | La red de sustentabilidad"
 theme="restaurant-hugo"
 summaryLength = "7"
-js= ["static/letb.js"]
+js = ["static/letb.js"]
 
 [taxonomies]
+  author = "authors"
   tag = "tags"
 
 [permalinks]
@@ -98,38 +99,47 @@ title= "Los temas de nuestro <span>Blog</span>"
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_news_icon_noBack.png"
 ceusBlogTitle = "Noticias"
+URL = "/tags/noticias"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_society_icon_noBack.png"
 ceusBlogTitle = "Sociedad"
+URL = "/tags/sociedad"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_education_icon_noBack.png"
 ceusBlogTitle = "Educación"
+URL = "/tags/educación"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_conference_icon_noBack.png"
 ceusBlogTitle = "Congreso"
+URL = "/tags/congreso"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_environment_icon_noBack.png"
 ceusBlogTitle = "Medio Ambiente"
+URL = "/tags/medio_ambiente"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_opinion_icon_noBack.png"
 ceusBlogTitle = "Opinión"
+URL = "/tags/opinión"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableDevelopment_icon_noBack.png"
 ceusBlogTitle = "Desarrollo Sustentable"
+URL = "/tags/desarrollo-sustentable"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_projects_icon_noBack.png"
 ceusBlogTitle = "Proyectos"
+URL = "/tags/proyectos"
 
 [[params.gallery.item]]
 img = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/Blog+icons/ceus_sustainableLeaders_icon_noBack.png"
 ceusBlogTitle = "Líderes Sustentables"
+URL = "/tags/líderes-sustentables"
 
 
 [params.about]
