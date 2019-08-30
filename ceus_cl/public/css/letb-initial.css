@@ -304,10 +304,9 @@ h6.slide-text{
     margin: 25px;
 }
 
-#blog, .author-section{
-    padding-top: 75px;
-    padding-bottom: 100px;
-    background: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
+#blog {
+    padding:100px 10%;
+    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -899,7 +898,7 @@ button:focus {
     margin-bottom: 30px;
 }
 
-.post-title{
+.post-title, .list-title{
     font-size:40px;
     font-weight: bold;
     color: #000;
@@ -911,9 +910,21 @@ button:focus {
     line-height: 26px;
 }
 
-.extra-img-blog{
+.agregar-foto{
     width: 100%;
     margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.pie-de-foto-extra{
+    font-size: 8px;
+    font-style: italic;
+    text-align: center;
+    margin-top:10px;
+}
+
+.extra-img-blog{
+    width: 100%;
 }
 
 /*---AUTHOR-ABOUT---*/
@@ -925,15 +936,17 @@ button:focus {
     background-color: #158976;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1)
-
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    margin-top: 30px;
 }
 
 .avatar-author{
-    width: 20%;
+    width: 25%;
     border-radius: 100%;
     border: 6px solid #FFF;
 }
+
+
 
 .author-data{
     display: flex;
@@ -989,5 +1002,25 @@ button:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin:20px;
 }
+
+#tags-single li{
+    margin-left: 10px;
+}
+
+/*--TAGS LIST TEMPLATE--*/
+
+#tags-list{
+    width: 100%;
+    padding: 100px 10%;
+    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.list-title{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+  }

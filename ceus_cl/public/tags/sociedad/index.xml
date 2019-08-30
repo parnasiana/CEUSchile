@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on CEUS Chile | La red de sustentabilidad</title>
-    <link>https://ceus.letb.cl/blog/</link>
-    <description>Recent content in Blogs on CEUS Chile | La red de sustentabilidad</description>
+    <title>Sociedad on CEUS Chile | La red de sustentabilidad</title>
+    <link>https://ceus.letb.cl/tags/sociedad/</link>
+    <description>Recent content in Sociedad on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 14:41:52 -0400</lastBuildDate>
     
-	<atom:link href="https://ceus.letb.cl/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ceus.letb.cl/tags/sociedad/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://ceus.letb.cl/cerrilloscop25/</guid>
       <description>En diciembre de este año, el Parque Bicentenario y el Centro Cultural Tío Lalo Parra de Cerrillos se convertirán en el epicentro mundial de la discución climática y las propuestas para enfrentar la crisis climática.</description>
-    </item>
-    
-    <item>
-      <title>Marcha #15M: ¿Por qué marchamos?</title>
-      <link>https://ceus.letb.cl/marcha15m/</link>
-      <pubDate>Fri, 30 Aug 2019 11:01:15 -0400</pubDate>
-      
-      <guid>https://ceus.letb.cl/marcha15m/</guid>
-      <description>¿Para qué estudiar para un futuro que podría nunca llegar?</description>
     </item>
     
   </channel>

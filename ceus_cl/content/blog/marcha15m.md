@@ -1,12 +1,12 @@
 ---
 title: "Marcha #15M: ¿Por qué marchamos?"
 date: 2019-08-30T11:01:15-04:00
-draft: false
+draft: true
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_KFlores.jpg"
   name: Kevin Flores
-  twitter: "https://twitter.com/er_kevin"
   age: "29 años"
+  twitter: "https://twitter.com/er_kevin"
   instagram: "https://www.instagram.com/quemelleveelviento/"
   description: "Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de profesión, interesado en la sustentabilidad en la minería y otros temas."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg"

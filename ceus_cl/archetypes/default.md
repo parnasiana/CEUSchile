@@ -2,8 +2,15 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-author:
+author: 
+  image: ""
   name: 
-  image: 
+  age: ""
+  twitter: "https://twitter.com/USERNAME"  
+  instagram: "https://www.instagram.com/USERNAME"
+  description: ""
 image: ""
+tags:
+  - ""
+  - ""
 ---

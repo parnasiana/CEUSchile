@@ -3,47 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ceus.letb.cl/blog/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/marcha15m/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/tags/medio-ambiente/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/tags/opini%C3%B3n/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceus.letb.cl/tags/</loc>
-    <lastmod>2019-08-30T11:01:15-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ceus.letb.cl/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://ceus.letb.cl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ceus.letb.cl/aboutus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ceus.letb.cl/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -304,10 +304,9 @@ h6.slide-text{
     margin: 25px;
 }
 
-#blog, .author-section{
-    padding-top: 75px;
-    padding-bottom: 100px;
-    background: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
+#blog {
+    padding:100px 10%;
+    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -899,7 +898,7 @@ button:focus {
     margin-bottom: 30px;
 }
 
-.post-title{
+.post-title, .list-title{
     font-size:40px;
     font-weight: bold;
     color: #000;
@@ -1009,3 +1008,19 @@ button:focus {
 #tags-single li{
     margin-left: 10px;
 }
+
+/*--TAGS LIST TEMPLATE--*/
+
+#tags-list{
+    width: 100%;
+    padding: 100px 10%;
+    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/CEUS/ceus_backgroundBlog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.list-title{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+  }
