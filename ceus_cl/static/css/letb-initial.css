@@ -911,9 +911,21 @@ button:focus {
     line-height: 26px;
 }
 
-.extra-img-blog{
+.agregar-foto{
     width: 100%;
     margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.pie-de-foto-extra{
+    font-size: 8px;
+    font-style: italic;
+    text-align: center;
+    margin-top:10px;
+}
+
+.extra-img-blog{
+    width: 100%;
 }
 
 /*---AUTHOR-ABOUT---*/
@@ -925,15 +937,17 @@ button:focus {
     background-color: #158976;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1)
-
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    margin-top: 30px;
 }
 
 .avatar-author{
-    width: 20%;
+    width: 25%;
     border-radius: 100%;
     border: 6px solid #FFF;
 }
+
+
 
 .author-data{
     display: flex;
@@ -989,5 +1003,9 @@ button:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin:20px;
+}
+
+#tags-single li{
+    margin-left: 10px;
 }

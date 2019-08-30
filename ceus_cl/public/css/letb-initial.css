@@ -916,94 +916,78 @@ button:focus {
     margin: 30px 0;
 }
 
-/*---AUTHORS LIST PAGE---*/
+/*---AUTHOR-ABOUT---*/
 
-.author-section{
-    width: 100%;
-    padding: 100px 10%;
-    display: flex;
-    flex-direction: column;
-}
-
-.author-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: #158976;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.about-author{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 70px;
-}
-
-.profile-author{
+#author-about{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.avatar-img{
-    width: 20%;
-    border: 10px solid #158976;
-    border-radius: 100%;
-}
-
-.author-brief{
-    width: 75%;
-    font-family:'Work Sans', sans-serif;
-    font-size: 24px;
-    line-height: 26px;
-    margin: auto 0;
-    padding: 20px;
-    color: #FFF;
     background-color: #158976;
-    border-radius:10px;
-    box-shadow: 3px 5px 14px -2px rgba(0,0,0,0.75);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1)
+
 }
 
-.author-subtitle{
-    font-size: 24px;
-    color: #158976;
-    text-align: center;
-    margin-bottom: 50px;
+.avatar-author{
+    width: 20%;
+    border-radius: 100%;
+    border: 6px solid #FFF;
 }
 
-.articles-holder{
+.author-data{
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
-.articles-cards{
+.author-title{
+    font-weight: bold;
+    font-size: 30px;
+    color:#FFF;
+    text-align: left;
+}
+
+.name-age-author{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    font-size: 26px;
+    color: #FFF;
 }
 
-.card-article{
-    background-color: #FFF;
-    width: 48%;
-    padding: 30px;
-    box-shadow: 3px 5px 14px -2px rgba(0,0,0,0.75);
+.name-age-author span{
+    margin-right: 20px;
+}
+.post-thumb{
+    width: 100%;
 }
 
-.block-link{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #43C11F;
+.rrss-author{
+    display: flex;
+    flex-direction: row;
+    margin:30px 0;
 }
 
-.summary-art, .byline{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000;
-    margin-top: 20px;
+.rrss-author span {
+    margin-right: 20px;
+    color: #FFF;
 }
 
-a {
-    color: #B5E541;
+.rrss-author a{
+    color:#B5E541;
+}
+
+.about-author-text{
+    color: #FFF;
+    font-style: italic;
+    text-align: left;
+}
+
+/*--TAGS--*/
+
+#tags-single{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
 }

@@ -12,9 +12,13 @@
                     {{ range .Params.tags }}
                       <li><a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a> </li>
                     {{ end }}
-                  </ul>
-                <ul class="list-inline mb-50 post-meta">
-                  <div id="author-about">
+                </ul>                  
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="post-single-content">
+                    {{ .Content }}
+                </div>
+                <div id="author-about">
                     <img class="avatar-author"src="{{ .Params.author.image }}" alt="">
                     <div class="author-data">
                       <span class="author-title">Sobre la persona detrás de este artículo:</span>
@@ -29,11 +33,6 @@
                         <span class="about-author-text">{{ .Params.author.description }}</span><br>
                     </div>
                   </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="post-single-content">
-                    {{ .Content }}
-                </div>
             </div>
         </div>
     </div>
