@@ -310,14 +310,5 @@ enable = true
 title= "Nuestros <span>Estatutos</span> y normativas"
 
 
-#AUTHORS
 
-[params.authors]
-enable = true
-
-[[params.authors.item]]
-avatar = "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_KFlores.jpg"
-Name = "Kevin Flores"
-sobre = "Kevin"
-description = "Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil en Minas de la Universidad de Chile. Interesado en la sustentabilidad en la minería y otros temas."
 

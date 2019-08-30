@@ -5,26 +5,19 @@
 <section class="section blog-single-page">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center my-post-wrapper">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
                 <h1 class="post-title">{{ .Title }}</h1>
-                <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">                
                 <ul class="list-inline mb-50 post-meta">
-                    <p>Escrito por {{ .Render "author-link" }}</p>
-                    {{ .Render "author-figure" }}
-                    <li class="list-inline-item">Tags:
-                        {{ with .Params.tags }}
-                        <br>                
-                        {{ range . }}
-                        {{ $href := print (absURL "tags/") (urlize .) }}
-                        <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
-                        {{ end }}
-                        {{ end }}
-                    </li>
-                    <li class="list-inline-item">Publicado el {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-                        {{ $dateFormat := .Site.Params.dateFormat | default "2/01/2006" }}
-                        <i data-feather="calendar"></i> <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
-                    </li>
-                </ul>              
+                  <div class="author">
+                    <img src="{{ .Params.author.image }}" alt="">
+                    <div>
+                        <span>{{ .Params.author.name }}</span><br>
+                    </div>
+                  </div>
+            
+                    <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
+                </ul>
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="post-single-content">
