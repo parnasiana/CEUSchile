@@ -8,16 +8,27 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
                 <h1 class="post-title">{{ .Title }}</h1>
+                <ul id="tags-single">Tags:
+                    {{ range .Params.tags }}
+                      <li><a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a> </li>
+                    {{ end }}
+                  </ul>
                 <ul class="list-inline mb-50 post-meta">
-                  <div class="author">
-                    <img src="{{ .Params.author.image }}" alt="">
-                    <div>
-                        <span>{{ .Params.author.name }}</span><br>
+                  <div id="author-about">
+                    <img class="avatar-author"src="{{ .Params.author.image }}" alt="">
+                    <div class="author-data">
+                      <span class="author-title">Sobre la persona detrás de este artículo:</span>
+                      <div class="name-age-author">
+                        <span>{{ .Params.author.name }},</span>
+                        <span>{{ .Params.author.age }}</span>
+                      </div>
+                      <div class="rrss-author">
+                        <span>En twitter: <a href="{{ .Params.author.twitter }}" target="_blank">@er_kevin</a></span>
+                        <span>En instagram: <a href="{{ .Params.author.instagram }}" target="_blank">@quemelleveelviento</a></span>
+                      </div>
+                        <span class="about-author-text">{{ .Params.author.description }}</span><br>
                     </div>
                   </div>
-            
-                    <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
-                </ul>
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="post-single-content">

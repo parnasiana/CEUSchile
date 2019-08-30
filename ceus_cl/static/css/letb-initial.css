@@ -916,3 +916,78 @@ button:focus {
     margin: 30px 0;
 }
 
+/*---AUTHOR-ABOUT---*/
+
+#author-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #158976;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1)
+
+}
+
+.avatar-author{
+    width: 20%;
+    border-radius: 100%;
+    border: 6px solid #FFF;
+}
+
+.author-data{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.author-title{
+    font-weight: bold;
+    font-size: 30px;
+    color:#FFF;
+    text-align: left;
+}
+
+.name-age-author{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    color: #FFF;
+}
+
+.name-age-author span{
+    margin-right: 20px;
+}
+.post-thumb{
+    width: 100%;
+}
+
+.rrss-author{
+    display: flex;
+    flex-direction: row;
+    margin:30px 0;
+}
+
+.rrss-author span {
+    margin-right: 20px;
+    color: #FFF;
+}
+
+.rrss-author a{
+    color:#B5E541;
+}
+
+.about-author-text{
+    color: #FFF;
+    font-style: italic;
+    text-align: left;
+}
+
+/*--TAGS--*/
+
+#tags-single{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
