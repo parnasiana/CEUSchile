@@ -1,7 +1,7 @@
 ---
 title: "IV Congreso Estudiantil Universitario de Sustentabilidad CEUS 2019 “Chile en el Escenario Mundial: de cara a la COP25” ¡Nuestro tiempo para la acción!"
 date: 2019-08-30T20:47:10-04:00
-draft: true
+draft: false
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_JLecourt.jpg"
   name: Javiera Lecourt
