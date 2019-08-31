@@ -3,14 +3,15 @@
 {{ partial "navigation.html" . }}
 
 <section id="tags-list">
-<h1 class="list-title">{{ .Title }}</h1>
-  <ul>
+  <h1 class="list-title">{{ .Title }}</h1>
+  <ul class="post-container">
     {{ range .Data.Pages }}
-      <li>
-        <a href="{{.RelPermalink}}">{{ .Title }}</a>
+      <li class="post-element">
+        <a href="{{.RelPermalink}}" class="title-card-post">{{ .Title }}</a>
+        <span>Escrito por {{ .Params.author.name }}</span>
       </li>
     {{ end }}
-  </ul>
+</ul>
 </section>
 
 

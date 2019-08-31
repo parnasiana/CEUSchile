@@ -7,7 +7,9 @@ author:
   name: Isabel Villanueva
   age: "25 años"
   twitter: "https://twitter.com/isavillanuevag_"  
+  arrobat: "@isavillanuevag_"
   instagram: "https://www.instagram.com/isavillanuevag"
+  arrobai: "@isavillanuevag"
   description: "Memorista de Ingeniería Civil Hidráulica, Sanitaria y Ambiental trabajando e investigando en sistemas de tratamientos de aguas residuales con revalorización de recursos y carbono neutral. Actualmente presidenta de la ONG CEUS CHILE que es la red de estudiantes, téncicas/os y profesionales sustentables de Chile. Asesora del IV Congreso Estudiantil Universitario de Sustentabilidad, un espacio único de convergencia de líderes y liderezas sustentables en Chile. ¿Este 2019? Chile en el Escenario Mundial: de cara a la COP25. Apasionada por el Desarrollo Sostenible. Siempre en movimiento y constantemente aprendiendo. Fanática del ODS 17: Alianzas para lograr los objetivos."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+3.jpeg"
 tags:

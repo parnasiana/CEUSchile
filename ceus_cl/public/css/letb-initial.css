@@ -1023,4 +1023,38 @@ button:focus {
 .list-title{
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-  }
+    color: #158976;
+    margin-bottom: 70px;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.post-element{
+    width: 48%;
+    background-color: #FFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.title-card-post{
+    font-size: 28px;
+    color: #158976;
+    text-align: right;
+    border-bottom: 1px solid #158976;
+}
+
+.post-element span{
+    font-size: 18px;
+    color: #000;
+    text-align: right;
+    margin-top: 30px;
+}
+

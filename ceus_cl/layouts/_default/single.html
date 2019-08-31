@@ -8,6 +8,9 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
                 <h1 class="post-title">{{ .Title }}</h1>
+                {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+                <i data-feather="calendar"></i> <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>   
                 <ul id="tags-single">Tags:
                     {{ range .Params.tags }}
                       <li><a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a> </li>
@@ -27,8 +30,8 @@
                         <span>{{ .Params.author.age }}</span>
                       </div>
                       <div class="rrss-author">
-                        <span>En twitter: <a href="{{ .Params.author.twitter }}" target="_blank">@er_kevin</a></span>
-                        <span>En instagram: <a href="{{ .Params.author.instagram }}" target="_blank">@quemelleveelviento</a></span>
+                        <span>En twitter: <a href="{{ .Params.author.twitter }}" target="_blank">{{ .Params.author.arrobat }}</a></span>
+                        <span>En instagram: <a href="{{ .Params.author.instagram }}" target="_blank">{{ .Params.author.arrobai }}</a></span>
                       </div>
                         <span class="about-author-text">{{ .Params.author.description }}</span><br>
                     </div>

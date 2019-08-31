@@ -7,7 +7,9 @@ author:
   name: Kevin Flores
   age: "29 años"
   twitter: "https://twitter.com/er_kevin"
+  arrobat: "@er_kevin"
   instagram: "https://www.instagram.com/quemelleveelviento/"
+  arrobai: "@quemelleveelviento"
   description: "Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de profesión, interesado en la sustentabilidad en la minería y otros temas."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg"
 tags:
