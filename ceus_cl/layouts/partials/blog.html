@@ -5,7 +5,7 @@
                 <div class="col-md-12">
                     <div class="block">
                         <h1 class="heading">{{ with .Site.Params.blog.title }} {{ . | safeHTML }} {{ end }}</h1>
-                        <ul>
+                        <ul class="post-container">
                             {{ range .Data.Pages }}
                             <li class="post-element">
                                 <a href="{{ .Permalink }}" class="title-card-post">{{ .Title }}</a>
