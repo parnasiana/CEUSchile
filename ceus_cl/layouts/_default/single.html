@@ -21,8 +21,15 @@
                 <div class="post-single-content">
                     {{ .Content }}
                 </div>
+                <ul class="links-fonts">
+                  {{ range .Params.fuentes }}
+                  <li><a href="{{ .Params.fuentes }}" class="link-to-font"></a></li>
+                  {{ end }}
+                </ul>
                 <div id="author-about">
-                    <img class="avatar-author"src="{{ .Params.author.image }}" alt="">
+                  <div class="av-holder">
+                    <img class="avatar-author img-responsive"src="{{ .Params.author.image }}" alt="">
+                  </div>
                     <div class="author-data">
                       <span class="author-title">Sobre la persona detrás de este artículo:</span>
                       <div class="name-age-author">

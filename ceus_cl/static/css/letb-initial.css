@@ -940,8 +940,11 @@ button:focus {
     margin-top: 30px;
 }
 
-.avatar-author{
+.av-holder{
     width: 25%;
+}
+
+.avatar-author{    
     border-radius: 100%;
     border: 4px solid #FFF;
 }
@@ -1055,4 +1058,7 @@ button:focus {
     text-align: right;
     margin-top: 30px;
 }
+
+/*--FUENTES DE ARTÍCULOS--*/
+
 
