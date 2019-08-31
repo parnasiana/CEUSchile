@@ -882,7 +882,7 @@ button:focus {
 /**---SINGLE PAGE BLOG ---*/
 
 #blog .block ul {
-    padding: 70px 10%;
+    padding: 70px 0;
 }
 
 .col-md-offset-2{

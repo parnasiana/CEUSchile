@@ -7,15 +7,11 @@
                         <h1 class="heading">{{ with .Site.Params.blog.title }} {{ . | safeHTML }} {{ end }}</h1>
                         <ul>
                             {{ range .Data.Pages }}
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-                                <div class="blog-img">
-                                    {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-responsive">{{ end }}
-                                </div>
-                                <div class="content-right">
-                                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                                </div>
+                            <li class="post-element">
+                                <a href="{{ .Permalink }}" class="title-card-post">{{ .Title }}</a>
+                                <span>Escrito por {{ .Params.author.name }}</span>
                             </li>
-                             {{ end }}
+                            {{ end }}
                          </ul>
                     </div>
                 </div><!-- .col-md-12 close -->

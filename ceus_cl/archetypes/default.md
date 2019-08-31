@@ -3,13 +3,15 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 author: 
-  image: ""
-  name: 
-  age: ""
-  twitter: "https://twitter.com/USERNAME"  
+  image: "url"
+  name: Johna Doea
+  age: "NUMBER años"
+  twitter: "https://twitter.com/USERNAME" 
+  arrobat: "@USERNAME" 
   instagram: "https://www.instagram.com/USERNAME"
-  description: ""
-image: ""
+  arrobai: "@USERNAME"
+  description: "BRIEF PERSONAL"
+image: "url imagen artículo"
 tags:
   - ""
   - ""
