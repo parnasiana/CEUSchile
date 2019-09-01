@@ -83,13 +83,12 @@
   </url>
   
   <url>
-    <loc>https://ceus.letb.cl/form/</loc>
+    <loc>https://ceus.letb.cl/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ceus.letb.cl/authors/</loc>
-    <priority>0</priority>
+    <loc>https://ceus.letb.cl/form/</loc>
   </url>
   
   <url>

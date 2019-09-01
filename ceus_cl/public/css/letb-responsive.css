@@ -752,8 +752,12 @@ h6.slide-text {
 #author-about {
   flex-direction: column;
 }
+
+.av-holder{
+  width: 100%;
+}
+
 .avatar-author{
-    width: 100%;
     border-radius: 100%;
     border: 2px solid #FFF;
 }
@@ -779,6 +783,17 @@ h6.slide-text {
 
 .post-single-content p {
   width: 100%;
+}
+
+.about-author-text{
+  color: #FFF;
+  font-style: italic;
+  text-align: justify;
+}
+
+.rrss-author {
+  flex-direction: column;
+  margin: 20px 0;
 }
 
 }

@@ -26,9 +26,11 @@ Si una sola joven puede lograr tal magnitud de movimiento, ¿qué podremos logra
 
 <div class="notas-al-pie">
 <h3 class="title-notas-al-pie">Complementa esta lectura:</h3>
-  <a href="https://www.un.org/es/events/youthday/" target="_blank" class="link-to-font">Naciones Unidas</a>
-  <a href="https://www.unfpa.org/news/10-things-you-didn’t-know-about-world’s-population" target="_blank" class="link-to-font">Fondo de población de las Naciones Unidas</a>
-  <a href="https://www.latercera.com/tendencias/noticia/greta-y-su-ejercito/571487/" target="_blank" class="link-to-font">La Tercera</a>
-  <a href="https://www.latercera.com/la-tercera-pm/noticia/greta-thunberg-y-su-viaje-a-la-cop25-las-interrogantes-de-su-travesia-en-velero/760332/" target="_blank" class="link-to-font">La Tercera</a>
-  <a href="https://www.elmostrador.cl/dia/2019/08/03/activista-greta-thunberg-parte-a-ginebra-en-preambulo-de-su-gira-y-paso-por-chile/" target="_blank" class="link-to-font">El Mostrador</a>
+  <div class="links-wrapp">
+  <a href="https://www.un.org/es/events/youthday/" target="_blank" class="link-to-font">- Naciones Unidas</a>
+  <a href="https://www.unfpa.org/news/10-things-you-didn’t-know-about-world’s-population" target="_blank" class="link-to-font">- Fondo de población de las Naciones Unidas</a>
+  <a href="https://www.latercera.com/tendencias/noticia/greta-y-su-ejercito/571487/" target="_blank" class="link-to-font"- >- La Tercera</a>
+  <a href="https://www.latercera.com/la-tercera-pm/noticia/greta-thunberg-y-su-viaje-a-la-cop25-las-interrogantes-de-su-travesia-en-velero/760332/" target="_blank" class="link-to-font">- La Tercera</a>
+  <a href="https://www.elmostrador.cl/dia/2019/08/03/activista-greta-thunberg-parte-a-ginebra-en-preambulo-de-su-gira-y-paso-por-chile/" target="_blank" class="link-to-font">- El Mostrador</a>
+  </div>
 </div>
