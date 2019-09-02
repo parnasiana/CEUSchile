@@ -173,10 +173,6 @@ enable = true
 title= "Síguenos en nuestras <span>Redes Sociales</span>"
 
 
-#Mailchimp subscription configaration 
-formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
-formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
-
 #Contact 
 
 [params.contact]

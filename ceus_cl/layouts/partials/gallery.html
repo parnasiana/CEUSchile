@@ -8,18 +8,19 @@
                         <h3>{{ with .Site.Params.gallery.title }} {{ . | safeHTML }} {{ end }}</h3>
                     </div>
                     <div id="owl-example" class="owl-carousel">
-                        {{ range $.Site.Params.gallery.item }}
-                            <a href="{{ .URL }}"><div class="blog-green">
-                                    <img class="img-responsive" src="{{ .img | absURL }}" alt="">
-                                        <div class="overlay-blog-ceus">
-                                            <div class="blog-text-gallery">{{ .ceusBlogTitle }}</div>
-                                        </div>
-                            </div>
-                        {{ end }}
+                    {{ range $.Site.Params.gallery.item }}
+                        <a href="{{ .URL }}"><div class="blog-green">
+                            <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                <div class="overlay-blog-ceus">
+                                    <div class="blog-text-gallery">{{ .ceusBlogTitle }}</div>
+                                </div>
+                        </a>
+                    </div>
+                    {{ end }}
+                    {{end}}
                     </div>
                 </div>
             </div><!-- .col-md-12 close -->
         </div><!-- .row close -->
     </div><!-- .container close -->
 </section><!-- slider close -->
-{{end}}

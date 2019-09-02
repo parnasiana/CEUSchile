@@ -278,7 +278,7 @@ h6.slide-text {
   flex-direction: column;
 }
 
-.about-link-ceus {
+a.about-link-ceus {
   font-size: 16px;
   margin-top: 10px;
 }

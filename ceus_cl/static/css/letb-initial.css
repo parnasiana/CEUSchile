@@ -125,7 +125,7 @@ img.slide-img-ceus{
     width: 100%;
 }
 
-.about-link-ceus{
+a.about-link-ceus{
     font-family: 'Work Sans', sans-serif;
     font-size: 28px;
     color: #FFF;
@@ -872,7 +872,7 @@ button:focus {
     cursor: pointer;
 }
 
-.download-statutes{
+a.download-statutes{
     text-align: center;
     color: #FFF;
 
@@ -1045,7 +1045,7 @@ button:focus {
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
 }
 
-.title-card-post{
+a.title-card-post{
     font-size: 28px;
     color: #158976;
     text-align: right;
@@ -1140,6 +1140,9 @@ input{
     flex-direction: column;
     width: 35%;
 }
+a.in-form-link{
+    color: #B5E541;
+}
 
 .select2-container{
     margin: 0 0 30px 0;
@@ -1184,7 +1187,7 @@ input{
     margin: 30px 0;
 }
 
-.back-to-home{
+a.back-to-home{
     background-color: #2656ED;
     color: #FFF;
     text-transform: uppercase;
