@@ -315,3 +315,8 @@ title= "Nuestros <span>Estatutos</span> y normativas"
 enable = true
 title = "Inscripción de <span>socias y socias</span> de CEUS"
 
+#form
+[params.submit]
+enable = true
+title = "¡Tu inscripción ha sido <span>exitosa!"
+

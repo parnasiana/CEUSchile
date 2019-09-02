@@ -117,7 +117,10 @@ $(".dev-over, .dev-cont").removeClass("appear");
 
 $(".no-event").unbind('click');
 
- });
+$(".select2-ceus").select2();
+
+
+});
 
 
 

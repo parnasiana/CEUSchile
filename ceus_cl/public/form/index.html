@@ -24,12 +24,15 @@
         <link rel="stylesheet" href="https://ceus.letb.cl/css/animate.min.css ">
 
 		<link rel="stylesheet" href="https://ceus.letb.cl/css/main.css ">
+			
+	<link rel="stylesheet" href="https://ceus.letb.cl/css/select2.min.css"  />
 	
 		<link rel="stylesheet" href="https://ceus.letb.cl/css/letb-initial.css ">
         
 		<link rel="stylesheet" href="https://ceus.letb.cl/css/letb-responsive.css ">
 		
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+
 
 		
 
@@ -84,7 +87,7 @@
     <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
        Inscripción de <span>socias y socias</span> de CEUS </h1>
     </h1>
-    <form class="ceus-form">
+    <form class="ceus-form" action="/submit/">
       <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
       <div class="line-form">
         <input type="radio" class="ceus-check" name="conditions">
@@ -135,8 +138,8 @@
           <input type="text" class="input-form" placeholder="56 9 99999999" />
         </div>
       </div>
-      <select class="region" name="Región">
-        <option value="SelectYourOption" disabled selected>Selecciona tu región</option>
+      <select class="select2-ceus" name="Región">
+        <option value="SelectYourOption" disabled selected>Selecciona la región donde vives</option>
         <option value="IRegión">I Región de Tarapacá</option>
         <option value="IIRegión">II Región de Antofagasta</option>
         <option value="IIIRegión">III Región de Atacama</option>
@@ -153,6 +156,10 @@
         <option value="XIVRegión">XIV Región de Los Ríos</option>
         <option value="XVRegión">XV Región de Arica y Parinacota</option>
         <option value="XVIRegión">XVI Región de Ñuble</option>
+      </select>
+      <label for="input-form" class="label-form">Institución educativa donde estudias o estudiaste</label>
+      <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad" />
+      <input type="submit" value="¡Enviar a CEUS Chile!">
     </form>
   </div>  
 </section>
@@ -255,6 +262,8 @@
         <!-- Letb Js file -->
         <script src="https://ceus.letb.cl/js/letb.js"></script>
 
+        <!-- Select2 Js file -->
+        <script src="https://ceus.letb.cl/js/select2.min.js"></script>
 
     </body>
 </html>

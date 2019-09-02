@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+<section id="submit">
+  <div id="submit-holder">
+    <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+      {{ with .Site.Params.form.title }} {{ . | safeHTML }} {{ end }}</h1>
+    </h1>
+    <div class="thanks-mssg">
+      <h2 class="thanks-title">¡Gracias por llenar nuestro formulario de inscripción!</h2>
+      <p class="thanks-text">Para nuestro equipo es muy importante tu participación. Recibirás un correo de nosotros para contarte 
+        más novedades y para que participes de forma más activa con nosotros.
+        ¡Te invitamos a seguir navegando por nuestra página!</p>
+      <a href="/" class="back-to-home">Volver al inicio</a>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
