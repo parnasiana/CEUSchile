@@ -7,7 +7,7 @@
     <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
       {{ with .Site.Params.form.title }} {{ . | safeHTML }} {{ end }}</h1>
     </h1>
-    <form class="ceus-form" action="/submit/">
+    <form class="ceus-form" method="POST" data-netlify="true" action="/submit/">
       <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
       <div class="line-form">
         <input type="radio" class="ceus-check" name="conditions">
