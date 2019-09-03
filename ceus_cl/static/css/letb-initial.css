@@ -1201,3 +1201,19 @@ a.back-to-home{
     border-radius: 40px;
 }
 
+.copyright{
+    display: inline-block;
+    bottom: 0;
+    background: #000;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+    padding: 10px 0;
+}
+
+.copyright a{
+    color: #FFF;
+    font-size: 8px;
+}
+
