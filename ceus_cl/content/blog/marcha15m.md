@@ -25,28 +25,42 @@ El movimiento Fridays For Future nace en agosto de 2018, cuando la joven sueca G
 <span class="pie-de-foto-extra">Greta Thunberg</span>
 </div>
 En Chile, mientras tanto, existen llamados a concentraciones y marchas en más de diez urbes para este viernes. Ciudades como Arica, Valparaíso, Talca, Concepción y Puerto Montt se unirán al llamado de Greta y exigirán a las autoridades compromisos y acciones concretas para frenar el avance del cambio climático. Es importante recordar que Chile es un país especialmente vulnerable a los efectos del cambio climático, por lo que el llamado realizado por Fridays For Future es especialmente relevante para todos nosotros.
-¿Reflexión final? Infórmese y, si le parece relevante tomar acción con respecto al cambio climático, únase al llamado y salga a marchar este viernes. Marchar es importante, pues es la expresión que tenemos como ciudadanía para hacer sentir nuestro malestar hacia los problemas socioambientales que están ocurriendo en el país (los que, en cifras del Instituto Nacional de Derechos Humanos, sumaron un total de 116 durante el 2018). En Santiago, la marcha comenzará a las 14:00 en Plaza Italia, y llegará hasta Los Héroes. En otras partes del país hay distintas horas y lugares de reunión. A continuación puedes encontrar los eventos creados para distintas ciudades del país:
+¿Reflexión final? Infórmese y, si le parece relevante tomar acción con respecto al cambio climático, únase al llamado y salga a marchar este viernes. Marchar es importante, pues es la expresión que tenemos como ciudadanía para hacer sentir nuestro malestar hacia los problemas socioambientales que están ocurriendo en el país (los que, en cifras del Instituto Nacional de Derechos Humanos, sumaron un total de 116 durante el 2018). En Santiago, la marcha comenzará a las 14:00 en Plaza Italia, y llegará hasta Los Héroes. En otras partes del país hay distintas horas y lugares de reunión. 
+
+<div class="notas-al-pie">
+  <h3 class="title-notas-al-pie">A continuación puedes encontrar los eventos creados para distintas ciudades del país:</h3>
+    <div class="links-wrapp">
+    <p class="link-to-font">Manifestación Global por el Medio Ambiente en Arica</p>
+    <p class="link-to-font">Manifestación Global por el Medio Ambiente en Valparaíso</p>
+    <p class="link-to-font">Marcha Global por el Medio Ambiente en Santiago</p>
+    <p class="link-to-font">Marcha Global por el Medio Ambiente en Santa Cruz</p>
+    <p class="link-to-font">Manifestación Global por el Medio Ambiente en Rancagua</p>
+    <p class="link-to-font">Manifestación por el Medio Ambiente en Curicó</p>
+    <p class="link-to-font">Marcha Global por el Medio Ambiente en Temuco</p>
+    <p class="link-to-font">Marcha Global por el Medio Ambiente en Valdivia</p>
+    <p class="link-to-font">Marcha Global por el Cambio Climático en Puerto Montt</p>
+    <p class="link-to-font">Marcha por el cambio climático en Punta Arenas</p>
+  </div>
+</div>
 
 
 
-- Manifestación Global por el Medio Ambiente en Arica
 
-- Manifestación Global por el Medio Ambiente en Valparaíso
 
-- Marcha Global por el Medio Ambiente en Santiago
 
-- Marcha Global por el Medio Ambiente en Santa Cruz
 
-- Manifestación Global por el Medio Ambiente en Rancagua
 
-- Manifestación por el Medio Ambiente en Curicó
 
-- Marcha Global por el Medio Ambiente en Temuco
 
-- Marcha Global por el Medio Ambiente en Valdivia
 
-- Marcha Global por el Cambio Climático en Puerto Montt
 
-- Marcha por el cambio climático en Punta Arenas
+
+
+
+
+
+
+
+
 
 

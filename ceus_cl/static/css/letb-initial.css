@@ -315,6 +315,7 @@ h6.slide-text{
 
   #price{
     background-color: #158976;
+    padding: 100px 0;
   }
 
   .form-call{
@@ -536,11 +537,12 @@ padding-bottom: 10px;
 }
 
 .descript-text{
-    color: #FFF;
+    color: #158976;
     padding: 30px;
     font-size: 20px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.6);
     width: 60%;
+    text-align: justify;
     border-radius: 20px;
 }
 
@@ -1050,6 +1052,7 @@ a.title-card-post{
     color: #158976;
     text-align: right;
     border-bottom: 1px solid #158976;
+    cursor: pointer;
 }
 
 .post-element span{

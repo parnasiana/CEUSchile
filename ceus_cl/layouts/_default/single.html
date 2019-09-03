@@ -5,9 +5,9 @@
 <section class="section blog-single-page">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
+            <div class="col-md-8 col-md-offset-2 text-center block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <h1 class="post-title">{{ .Title }}</h1>
+                <img class="img-responsive post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">                
                 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
                 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
                 <i data-feather="calendar"></i> <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>   

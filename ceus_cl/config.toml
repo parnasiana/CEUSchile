@@ -68,11 +68,11 @@ command = "hugo --gc --minify"
 
     [[menu.nav]]
     name = "Colabora con CEUS!"
-    URL = "#price"
+    URL = "/form/"
     weight = 4
 
     [[menu.nav]]
-    name = "Contáctanos"
+    name = "Síguenos"
     URL = "#subscribe"
     weight = 5
 
