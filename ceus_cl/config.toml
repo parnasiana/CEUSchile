@@ -309,7 +309,7 @@ title= "Nuestros <span>Estatutos</span> y normativas"
 #form
 [params.form]
 enable = true
-title = "Inscripción de <span>socias y socias</span> de CEUS"
+title = "Inscripción de <span>socias y socios</span> de CEUS"
 
 #form
 [params.submit]
