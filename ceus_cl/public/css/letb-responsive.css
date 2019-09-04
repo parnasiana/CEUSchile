@@ -834,4 +834,20 @@ label.label-form{
 input::placeholder{
   font-size: 10px;
 }
+
+/*---SUBMIT FORM---*/
+
+#submit-holder{
+  padding: 50px 10%;
+}
+
+.thanks-mssg{
+  width: 100%;
+  margin:50px auto;
+}
+
+.thanks-title {  
+  font-size: 30px;
+}
+
 }
