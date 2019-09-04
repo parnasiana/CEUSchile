@@ -1126,23 +1126,33 @@ input{
     margin-bottom: 30px;
 }
 
-.lineIN-form{
+.group1-form, .group4-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.group23{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
-.pair-column-form{
+.group2-form{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 75%;
 }
 
-.pair2-column-form{
+.group3-form{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 20%;
 }
+
+
+
 a.in-form-link{
     color: #B5E541;
 }

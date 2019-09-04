@@ -794,4 +794,44 @@ a.about-link-ceus {
   margin: 20px 0;
 }
 
+/*-----FORM-----*/
+
+#form-holder{
+  padding: 50px 10%;
+}
+
+.ceus-form{
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+.title-in-form{
+  text-align: left;
+}
+
+.line-form span{
+  text-align: justify;
+}
+
+label.label-form{
+  font-size: 10px;
+}
+
+.group23{
+  flex-direction: column;
+}
+
+.group2-form{
+  width: 100%;
+}
+
+.group3-form{
+  width: 100%;
+}
+
+input::placeholder{
+  font-size: 10px;
+}
 }
