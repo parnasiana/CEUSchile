@@ -7,7 +7,7 @@
     <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
       {{ with .Site.Params.form.title }} {{ . | safeHTML }} {{ end }}</h1>
     </h1>
-    <form class="ceus-form" method="POST" data-netlify="true" action="/submit/">
+    <form class="ceus-form" method="POST" data-netlify="true" action="/submit/" data-netlify-recaptcha="true">
       <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
       <div class="line-form">
         <input type="radio" class="ceus-check" name="conditions">
@@ -70,6 +70,7 @@
         </select>
         <label for="input-form" class="label-form">Institución educativa donde estudias o estudiaste</label>
         <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad" />
+        <div data-netlify-recaptcha="true"></div>
         <input type="submit" value="¡Enviar a CEUS Chile!">
       </div>
     </form>
