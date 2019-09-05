@@ -1,4 +1,4 @@
-baseURL = "https://ceus.letb.cl/"
+baseURL = "https://www.ceuschile.cl"
 languageCode = "en-us"
 title = "CEUS Chile | La red de sustentabilidad"
 theme="restaurant-hugo"

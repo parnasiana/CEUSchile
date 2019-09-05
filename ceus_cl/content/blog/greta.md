@@ -6,9 +6,9 @@ author:
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
   name: Vicente Melo
   age: "24 años"
-  twitter: "https://twitter.com/" 
+  twitter: "#" 
   arrobat: "No uso" 
-  instagram: "https://www.instagram.com"
+  instagram: "#"
   arrobai: "Tampoco uso"
   description: "Memorista de Geología en la Universidad de Chile, con intereses en Geomorfología Glaciar, Glaciología y Geología Ambiental principalmente. Actualmente estudiando un depósito de avalancha de roca en el río Yeso. Actualmente integrante del equipo de contenido de la ONG CEUS CHILE."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+2.png"
