@@ -1,7 +1,7 @@
 ---
 title: "Día Internacional de las aves playeras"
 date: 2019-09-05T10:26:34-04:00
-draft: false
+draft: true
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
   name: Vicente Melo
