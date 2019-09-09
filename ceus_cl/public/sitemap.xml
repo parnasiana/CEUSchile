@@ -5,16 +5,19 @@
   <url>
     <loc>https://www.ceuschile.cl/blog/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/tags/congreso/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -25,16 +28,19 @@
   <url>
     <loc>https://www.ceuschile.cl/tags/medio-ambiente/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/tags/sociedad/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/tags/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -45,11 +51,13 @@
   <url>
     <loc>https://www.ceuschile.cl/tags/l%C3%ADderes-sustentables/</loc>
     <lastmod>2019-08-30T20:33:53-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/tags/desarrollo-sustentable/</loc>
     <lastmod>2019-08-30T14:41:52-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -60,6 +68,7 @@
   <url>
     <loc>https://www.ceuschile.cl/tags/noticias/</loc>
     <lastmod>2019-08-30T14:41:52-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -70,10 +79,12 @@
   <url>
     <loc>https://www.ceuschile.cl/tags/opini%C3%B3n/</loc>
     <lastmod>2019-08-30T11:01:15-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/authors/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
