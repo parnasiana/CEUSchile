@@ -6,19 +6,10 @@
     <description>Recent content in Tags on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 10:26:34 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 20:47:10 -0400</lastBuildDate>
     
 	<atom:link href="https://www.ceuschile.cl/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Medio Ambiente</title>
-      <link>https://www.ceuschile.cl/tags/medio-ambiente/</link>
-      <pubDate>Thu, 05 Sep 2019 10:26:34 -0400</pubDate>
-      
-      <guid>https://www.ceuschile.cl/tags/medio-ambiente/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Congreso</title>
@@ -26,6 +17,15 @@
       <pubDate>Fri, 30 Aug 2019 20:47:10 -0400</pubDate>
       
       <guid>https://www.ceuschile.cl/tags/congreso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medio Ambiente</title>
+      <link>https://www.ceuschile.cl/tags/medio-ambiente/</link>
+      <pubDate>Fri, 30 Aug 2019 20:47:10 -0400</pubDate>
+      
+      <guid>https://www.ceuschile.cl/tags/medio-ambiente/</guid>
       <description></description>
     </item>
     
