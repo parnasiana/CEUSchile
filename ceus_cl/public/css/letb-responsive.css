@@ -850,4 +850,8 @@ input::placeholder{
   font-size: 30px;
 }
 
+.post-element{
+  width: 100%;
+}
+
 }
