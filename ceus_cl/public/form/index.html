@@ -88,17 +88,28 @@
        Inscripción de <span>socias y socios</span> de CEUS </h1>
     </h1>
     <form class="ceus-form" name="Inscripciones" method="POST" data-netlify="true" action="/submit/">
+      <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
       <input type="checkbox" name="Adultez">
+        <span>Declaro ser mayor de 18 años.</span>
       <input type="checkbox" name="Leyo-y-Acepta">
+        <span>Declaro haber leído detalladamente y acepto lo establecido en los documentos: 
+          <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_estatutos.pdf" target="_blank">Estatutos, </a>
+          <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_normativaPrevencionYSancionDeAccionesDeViolenciaSexual.pdf"target="_blank"> Normativa de prevención y sanción de acciones de violencia sexual y </a>
+          <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_protocoloDeComportamientoYEtica.pdf" target="_blank">Protocolo de Comportamiento y ética</a>
+        </span>
       <input type="checkbox" name="Deposito">
+        <span>Declaro que realicé un deposito/transferencia electrónica de $5.513 CLP (0,2 UF) correspondiente al valor de la membresía, en la Cuenta Vista del Banco Santander N°
+          7005389512, a nombre de Italo Muñoz, Rut: 19184527-7 y correo electrónico inscripcionsocios@ceuschile.cl, añadiendo un mensaje con tus datos del tipo "Nombre Apellido CEUS Chile".
+        </span>
       <input type="file" id="upload-form" name="Adjunto">
-      <input type="text" class="input-form" placeholder="Escribe tu nombre aquí...">
-      <input type="text" class="input-form" placeholder="Escribe tu apellido parterno aquí...">
-      <input type="text" class="input-form" placeholder="ejemplo@mimail.com">
-      <input type="text" class="input-form" placeholder="11.111.111-1">
-      <input type="text" class="input-form" placeholder="dd-mm-aaaa">
-      <input type="text" class="input-form" placeholder="56 9 99999999">
-      <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad">
+      <input type="text" class="input-form" placeholder="Escribe tu nombre aquí..." name="Nombres">
+      <input type="text" class="input-form" placeholder="Escribe tu apellido parterno aquí..." name="ApellidoPaterno">
+      <input type="text" class="input-form" placeholder="Escribe tu apellido materno aquí..." name="ApellidoMaterno">
+      <input type="text" class="input-form" placeholder="ejemplo@mimail.com" name="Mail">
+      <input type="text" class="input-form" placeholder="11.111.111-1" name="RUT">
+      <input type="text" class="input-form" placeholder="dd-mm-aaaa" name="fechaNacimiento">
+      <input type="text" class="input-form" placeholder="56 9 99999999" name="telefono">
+      <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad" name="casaEstudios">
       <select class="select2-ceus" name="Región">
           <option value="SelectYourOption" disabled selected>Selecciona la región donde vives</option>
           <option value="IRegión">I Región de Tarapacá</option>
