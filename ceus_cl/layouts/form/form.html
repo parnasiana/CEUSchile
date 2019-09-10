@@ -7,49 +7,19 @@
     <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
       {{ with .Site.Params.form.title }} {{ . | safeHTML }} {{ end }}</h1>
     </h1>
-    <form name="InscripcionesCEUS" class="ceus-form" method="POST" data-netlify="true" action="/submit/" data-netlify-recaptcha="true">
-      <h2 class="title-in-form">Rellena el formulario y presiona enviar!</h2>
-      <div class="line-form">
-        <input type="checkbox" class="ceus-check" name="conditions">
-        <span>Declaro ser mayor de 18 años.</span>
-      </div>
-      <div class="line-form">
-          <input type="checkbox" class="ceus-check" name="conditions">
-          <span>Declaro haber leído detalladamente y acepto lo establecido en los documentos: <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_estatutos.pdf" target="_blank">Estatutos, </a>
-            <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_normativaPrevencionYSancionDeAccionesDeViolenciaSexual.pdf"target="_blank"> Normativa de prevención y sanción de acciones de violencia sexual y </a>
-            <a class="in-form-link" href="https://letb.s3-sa-east-1.amazonaws.com/CEUS/aboutUs/ceus_protocoloDeComportamientoYEtica.pdf" target="_blank">Protocolo de Comportamiento y ética</a></span>
-      </div>
-      <div class="line-form">
-          <input type="checkbox" class="ceus-check" name="conditions">
-          <span>Declaro que realicé un deposito/transferencia electrónica de $5.513 CLP (0,2 UF) correspondiente al valor de la membresía, en la Cuenta Vista del Banco Santander N°
-              7005389512, a nombre de Italo Muñoz, Rut: 19184527-7 y correo electrónico inscripcionsocios@ceuschile.cl, añadiendo un mensaje con tus datos del tipo "Nombre Apellido CEUS Chile".</span>
-      </div>
-      <div class="group1-form">
-        <label for="upload-form" class="label-form">Selecciona un archivo como comprobante de depósito o transferencia bancaria</label>
-        <input type="file" id="upload-form" name="uploadField" />
-        <label for="input-form" class="label-form">Nombre(s)</label>
-        <input type="text" class="input-form" placeholder="Escribe tu nombre aquí..." />
-      </div>
-      <div class="group23">
-        <div class="group2-form">
-            <label for="input-form" class="label-form">Apellido Paterno</label>
-            <input type="text" class="input-form" placeholder="Escribe tu apellido parterno aquí..." />
-            <label for="input-form" class="label-form">Apellido Materno</label>
-            <input type="text" class="input-form" placeholder="Escribe tu apellido materno aquí..." />
-            <label for="input-form" class="label-form">Correo electrónico</label>
-            <input type="text" class="input-form" placeholder="ejemplo@mimail.com" />
-        </div>
-        <div class="group3-form">
-            <label for="input-form" class="label-form">R.U.T</label>
-            <input type="text" class="input-form" placeholder=11.111.111-1 />
-            <label for="input-form" class="label-form">Fecha de Nacimiento</label>
-            <input type="text" class="input-form" placeholder="dd-mm-aaaa" />
-            <label for="input-form" class="label-form">Teléfono de contacto</label>
-            <input type="text" class="input-form" placeholder="56 9 99999999" />
-        </div>
-      </div>
-      <div class="group4-form">
-        <select class="select2-ceus" name="Región">
+    <form class="ceus-form" name="Inscripciones" method="POST" data-netlify="true" action="/submit/">
+      <input type="checkbox" name="Adultez">
+      <input type="checkbox" name="Leyo-y-Acepta">
+      <input type="checkbox" name="Deposito">
+      <input type="file" id="upload-form" name="Adjunto">
+      <input type="text" class="input-form" placeholder="Escribe tu nombre aquí...">
+      <input type="text" class="input-form" placeholder="Escribe tu apellido parterno aquí...">
+      <input type="text" class="input-form" placeholder="ejemplo@mimail.com">
+      <input type="text" class="input-form" placeholder="11.111.111-1">
+      <input type="text" class="input-form" placeholder="dd-mm-aaaa">
+      <input type="text" class="input-form" placeholder="56 9 99999999">
+      <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad">
+      <select class="select2-ceus" name="Región">
           <option value="SelectYourOption" disabled selected>Selecciona la región donde vives</option>
           <option value="IRegión">I Región de Tarapacá</option>
           <option value="IIRegión">II Región de Antofagasta</option>
@@ -68,11 +38,8 @@
           <option value="XVRegión">XV Región de Arica y Parinacota</option>
           <option value="XVIRegión">XVI Región de Ñuble</option>
         </select>
-        <label for="input-form" class="label-form">Institución educativa donde estudias o estudiaste</label>
-        <input type="text" class="input-form" placeholder="Escribe aquí el nombre de tu colegio, Instituto Profesional o Universidad" />
         <div data-netlify-recaptcha="true"></div>
         <input type="submit" value="¡Enviar a CEUS Chile!">
-      </div>
     </form>
   </div>  
 </section>
