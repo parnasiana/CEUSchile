@@ -201,19 +201,19 @@ content = "contacto@ceuschile.cl"
 
 [[params.footer.socialLink]]
 title="/ceuschile"
-icon = "facebook"
+icon = "fab fa-facebook-square"
 link = "https://fb.com/ceuschile"
 
 
 
 [[params.footer.socialLink]]
 title="@CEUS_Chile"
-icon = "twitter"
+icon = "fab fa-twitter-square"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
 title="@ceus_chile"
-icon = "instagram"
+icon = "fab fa-instagram"
 link = "https://www.instagram.com/ceus_chile"
 
 
