@@ -4,13 +4,30 @@
   
   <url>
     <loc>https://www.ceuschile.cl/blog/</loc>
-    <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ceuschile.cl/</loc>
-    <lastmod>2019-08-30T20:47:10-04:00</lastmod>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ceuschile.cl/avesplayeras/</loc>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ceuschile.cl/tags/medio-ambiente/</loc>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ceuschile.cl/tags/</loc>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -26,19 +43,7 @@
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/medio-ambiente/</loc>
-    <lastmod>2019-08-30T20:47:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ceuschile.cl/tags/sociedad/</loc>
-    <lastmod>2019-08-30T20:47:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/tags/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
     <priority>0</priority>
   </url>
