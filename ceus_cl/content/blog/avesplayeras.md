@@ -4,7 +4,7 @@ date: 2019-09-05T10:26:34-04:00
 draft: false
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
-  name: Vicente Melo
+  name: Vicente Melo Velasco
   age: "24 años"
   twitter: "#" 
   arrobat: "No uso" 

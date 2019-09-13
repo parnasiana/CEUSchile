@@ -4,7 +4,7 @@ date: 2019-08-30T20:47:10-04:00
 draft: false
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_JLecourt.jpg"
-  name: Javiera Lecourt
+  name: Javiera Lecourt Palacios
   age: "25 años"
   twitter: "https://twitter.com/Javi_Lecourt" 
   arrobat: "@Javi_Lecourt" 

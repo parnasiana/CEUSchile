@@ -4,7 +4,7 @@ date: 2019-08-30T14:41:52-04:00
 draft: false
 author: 
   image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_IVillanueva.jpg"
-  name: Isabella Villanueva
+  name: Isabella Villanueva García
   age: "25 años"
   twitter: "https://twitter.com/isavillanuevag_"  
   arrobat: "@isavillanuevag_"
