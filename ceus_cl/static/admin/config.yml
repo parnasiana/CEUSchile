@@ -18,8 +18,18 @@ collections:
       - {label: "Título de entrada", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
       - {label: "Borrador", name: "draft", widget: "boolean"}
-      - {name: "author"}:
+      - name: author
+        label: "Autor del artículo"
+        fields:
           - {label: "Foto de autor", name: "image", widget: "image"}
           - {label: "'Nombre' 'Apellido Paterno' 'Apellido Materno'", name: "name", widget: "string"}
+          - {label: "Edad (N°)", name: "age", widget: "number"}
+          - {label: "Link a tu perfil de TW", name: "twitter", widget: "url"}
+          - {label: "Tu arroba de TW", name: "arrobat", widget: "string"}
+          - {label: "Link a tu perfil de IG", name: "instagram", widget: "url"}
+          - {label: "Tu arroba de IG", name: "arrobai", widget: "string"}
+          - {label: "Breve descripción del autor", name: "description", widget: "string"}
       - {label: "Imágen para entrada", name: "image", widget: "image"}
+      -name: tags
+       label: "Escribe los tags del artículo"
       - {label: "Escribe tu entrada", name: "entrada", widget: "markdown"}
