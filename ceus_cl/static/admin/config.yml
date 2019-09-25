@@ -18,7 +18,7 @@ collections:
       - {label: "Título de entrada", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
       - {label: "Borrador", name: "draft", widget: "boolean"}
-      - {label: "Autor", name: "author", widget: "string"}:
+      - {name: "author"}:
           - {label: "Foto de autor", name: "image", widget: "image"}
           - {label: "'Nombre' 'Apellido Paterno' 'Apellido Materno'", name: "name", widget: "string"}
       - {label: "Imágen para entrada", name: "image", widget: "image"}
