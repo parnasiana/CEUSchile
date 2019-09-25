@@ -24,8 +24,8 @@ collections:
       - {label: "Edad del autor (Ej: 24 años)", name: "AAge", widget: "string", required: true}    
       - {label: "Link a tu perfil de Twitter (Ej: https://twitter.com/USUARIO)", name: "ATwitter", widget: "string"}
       - {label: "Tu arroba de Twitter (Ej: @USUARIO)", name: "Aarrobat", widget: "string"}
-      - {label: "Link a tu perfil de Instagram (Ej: https://www.instagram.com/USUARIO)", name: "ATwitter", widget: "string"}
-      - {label: "Tu arroba de Instagram (Ej: @USUARIO)", name: "ATwitter", widget: "string"}
+      - {label: "Link a tu perfil de Instagram (Ej: https://www.instagram.com/USUARIO)", name: "AInstagram", widget: "string"}
+      - {label: "Tu arroba de Instagram (Ej: @USUARIO)", name: "Arrobai", widget: "string"}
       - {label: "Escribe una breve descripción sobre ti", name: "Adescription", widget: "text"}
       - {label: "Escribe tu artículo", name: "body", widget: "markdown"}
 
