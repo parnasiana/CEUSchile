@@ -2,6 +2,7 @@ backend:
   name: github
   branch: master
   repo: parnasiana/CEUSchile
+  open_authoring: true
 
 publish_mode: editorial_workflow
 
@@ -9,8 +10,6 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 site_url: https://ceuschile.cl
-display_url: https://ceuschile.cl
-show_preview_links: true
 
 editor:
   preview: false
