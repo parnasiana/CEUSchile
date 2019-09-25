@@ -17,20 +17,20 @@ collections:
     fields:
       - {label: "Título de entrada", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      - {label: "Borrador", name: "draft", widget: "boolean"}
+      - {label: "¿Esto es un borrador?", name: "draft", widget: "boolean"}
       - name: author
         widget: object
         label: "Autor del artículo"
         fields:
           - {label: "Foto de autor", name: "image", widget: "image"}
           - {label: "'Nombre' 'Apellido Paterno' 'Apellido Materno'", name: "name", widget: "string"}
-          - {label: "Edad (N°)", name: "age", widget: "number"}
-          - {label: "Link a tu perfil de TW", name: "twitter", widget: "string"}
-          - {label: "Tu arroba de TW", name: "arrobat", widget: "string"}
-          - {label: "Link a tu perfil de IG", name: "instagram", widget: "string"}
-          - {label: "Tu arroba de IG", name: "arrobai", widget: "string"}
-          - {label: "Breve descripción del autor", name: "description", widget: "string"}
-      - {label: "Imágen para entrada", name: "image", widget: "image"}
+          - {label: "Edad (Escribe como en el ejemplo: '24 años')", name: "age", widget: "string"}
+          - {label: "Link a tu perfil de twitter (Escribe como en el ejemplo: 'https://twitter.com/nombreDeUsuario')", name: "twitter", widget: "string"}
+          - {label: "Tu arroba de twitter (Escribe @nombreDeUsuario)", name: "arrobat", widget: "string"}
+          - {label: "Link a tu perfil de instagram (Escribe como en el ejemplo: 'https://www.instagram.com/nombreDeUsuario')", name: "instagram", widget: "string"}
+          - {label: "Tu arroba de instagram (Escribe @nombreDeUsuario)", name: "arrobai", widget: "string"}
+          - {label: "Breve descripción del autor (Expláyate y cuéntanos más sobre ti)", name: "description", widget: "string"}
+      - {label: "Imágen de la entrada de blog", name: "image", widget: "image"}
       - name: tags
         label: "Escribe los tags del artículo"
         widget: list
