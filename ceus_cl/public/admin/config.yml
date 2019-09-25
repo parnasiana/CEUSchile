@@ -13,5 +13,17 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Título", name: "title", widget: "string", required: true}
+      - {label: "Título de la entrada", name: "title", widget: "string", required: true}
+      - {label: "Fecha de publicación", name: "date", widget: "date"}
+      - {label: "¿Esto es un borrador?", name: "draft", widget: "boolean", default: true}
+      - {label: "Imágen del Artículo", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Nombre completo del autor", name: "AName", widget: "string", required: true} 
+      - {label: "Avatar del autor", name: "AImage", widget: "image", required: true}   
+      - {label: "Edad del autor (Ej: 24 años)", name: "AAge", widget: "string", required: true}    
+      - {label: "Link a tu perfil de Twitter (Ej: https://twitter.com/USUARIO)", name: "ATwitter", widget: "string"}
+      - {label: "Tu arroba de Twitter (Ej: @USUARIO)", name: "Aarrobat", widget: "string"}
+      - {label: "Link a tu perfil de Instagram (Ej: https://www.instagram.com/USUARIO)", name: "ATwitter", widget: "string"}
+      - {label: "Tu arroba de Instagram (Ej: @USUARIO)", name: "ATwitter", widget: "string"}
+      - {label: "Escribe una breve descripción sobre ti", name: "Adescription", widget: "text"}
 
