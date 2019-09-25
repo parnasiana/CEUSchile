@@ -4,8 +4,8 @@ date: 2019-09-25T20:07:32.605Z
 draft: false
 image: /images/uploads/foto-1.png
 tags:
-  - Medio Ambiente
-  - Sociedad
+  - "Medio Ambiente"
+  - "Sociedad"
 AName: Bárbara Letelier Soto
 AImage: /images/uploads/ceus_2019.png
 AAge: 30 años
