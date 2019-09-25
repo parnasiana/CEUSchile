@@ -9,7 +9,7 @@
                             {{ range .Data.Pages }}
                             <li class="post-element">
                                 <a href="{{ .Permalink }}" class="title-card-post">{{ .Title }}</a>
-                                <span>Escrito por {{ .Params.author.name }}</span>
+                                <span>Escrito por {{ .Params.AName }}</span>
                             </li>
                             {{ end }}
                          </ul>
