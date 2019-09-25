@@ -3,8 +3,17 @@ backend:
   branch: master
   repo: parnasiana/CEUSchile
 
+publish_mode: editorial_workflow
+
 media_folder: "static/images/uploads" 
 public_folder: "/images/uploads"
+
+site_url: https://ceuschile.cl
+display_url: https://ceuschile.cl
+show_preview_links: true
+
+editor:
+  preview: false
 
 collections:
   - name: "blog"
@@ -12,7 +21,8 @@ collections:
     folder: "ceus_cl/content/blog/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    preview_path: blog/{{slug}}
+    preview_path: "blog/{{year}}/{{month}}/{{slug}}"
+    preview_path_date_field: published_at
     fields:
       - {label: "Título de la entrada", name: "title", widget: "string", required: true}
       - {label: "Fecha de publicación", name: "date", widget: "date"}
