@@ -31,5 +31,5 @@ collections:
           - {label: "Breve descripción del autor", name: "description", widget: "string"}
       - {label: "Imágen para entrada", name: "image", widget: "image"}
       - name: tags
-        label: "Escribe los tags del artículo"
+          label: "Escribe los tags del artículo"
       - {label: "Escribe tu entrada", name: "entrada", widget: "markdown"}
