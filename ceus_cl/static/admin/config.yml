@@ -12,6 +12,7 @@ collections:
     folder: "content/blog/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: blog/{{slug}}
     fields:
       - {label: "Título de la entrada", name: "title", widget: "string", required: true}
       - {label: "Fecha de publicación", name: "date", widget: "date"}
@@ -26,4 +27,5 @@ collections:
       - {label: "Link a tu perfil de Instagram (Ej: https://www.instagram.com/USUARIO)", name: "ATwitter", widget: "string"}
       - {label: "Tu arroba de Instagram (Ej: @USUARIO)", name: "ATwitter", widget: "string"}
       - {label: "Escribe una breve descripción sobre ti", name: "Adescription", widget: "text"}
+      - {label: "Escribe tu artículo", name: "body", widget: "markdown"}
 
