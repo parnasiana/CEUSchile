@@ -1,37 +1,17 @@
 backend:
-  name: github
+  name: git-gateway
   branch: master
   repo: parnasiana/CEUSchile
 
-publish_mode: editorial_workflow
-
-media_folder: static/img/uploads
-public_folder: img/uploads
+media_folder: static/uploads
+public_folder: "uploads"
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "content/blog/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Título de entrada", name: "title", widget: "string"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      - {label: "¿Esto es un borrador?", name: "draft", widget: "boolean"}
-      - name: author
-        widget: object
-        label: "Autor del artículo"
-        fields:
-          - {label: "Foto de autor", name: "image", widget: "image"}
-          - {label: "'Nombre' 'Apellido Paterno' 'Apellido Materno'", name: "name", widget: "string"}
-          - {label: "Edad (Escribe como en el ejemplo: '24 años')", name: "age", widget: "string"}
-          - {label: "Link a tu perfil de twitter (Escribe como en el ejemplo: 'https://twitter.com/nombreDeUsuario')", name: "twitter", widget: "string"}
-          - {label: "Tu arroba de twitter (Escribe @nombreDeUsuario)", name: "arrobat", widget: "string"}
-          - {label: "Link a tu perfil de instagram (Escribe como en el ejemplo: 'https://www.instagram.com/nombreDeUsuario')", name: "instagram", widget: "string"}
-          - {label: "Tu arroba de instagram (Escribe @nombreDeUsuario)", name: "arrobai", widget: "string"}
-          - {label: "Breve descripción del autor (Expláyate y cuéntanos más sobre ti)", name: "description", widget: "string"}
-      - {label: "Imágen de la entrada de blog", name: "image", widget: "image"}
-      - name: tags
-        label: "Escribe los tags del artículo"
-        widget: list
-      - {label: "Escribe tu entrada", name: "entrada", widget: "markdown"}
+      - {label: "Título", name: "title", widget: "string", required: true}
+
