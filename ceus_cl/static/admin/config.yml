@@ -3,8 +3,8 @@ backend:
   branch: master
   repo: parnasiana/CEUSchile
 
-media_folder: static/uploads
-public_folder: "uploads"
+media_folder: "static/images/uploads" 
+public_folder: "/images/uploads"
 
 collections:
   - name: "blog"
