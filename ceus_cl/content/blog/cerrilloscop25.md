@@ -2,20 +2,20 @@
 title: "Municipio de Cerrillos y Sociedad Civil por la Acción Climática llegan a acuerdo para realizar COP25 Paralela"
 date: 2019-08-30T14:41:52-04:00
 draft: false
-author: 
-  image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_IVillanueva.jpg"
-  name: Isabella Villanueva García
-  age: "25 años"
-  twitter: "https://twitter.com/isavillanuevag_"  
-  arrobat: "@isavillanuevag_"
-  instagram: "https://www.instagram.com/isavillanuevag"
-  arrobai: "@isavillanuevag"
-  description: "Memorista de Ingeniería Civil Hidráulica, Sanitaria y Ambiental trabajando e investigando en sistemas de tratamientos de aguas residuales con revalorización de recursos y carbono neutral. Actualmente presidenta de la ONG CEUS CHILE que es la red de estudiantes, téncicas/os y profesionales sustentables de Chile. Asesora del IV Congreso Estudiantil Universitario de Sustentabilidad, un espacio único de convergencia de líderes y liderezas sustentables en Chile. ¿Este 2019? Chile en el Escenario Mundial: de cara a la COP25. Apasionada por el Desarrollo Sostenible. Siempre en movimiento y constantemente aprendiendo. Fanática del ODS 17: Alianzas para lograr los objetivos."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+3.jpeg"
 tags:
   - "Noticias"
   - "Sociedad"
   - "Desarrollo Sustentable"
+AName: Isabella Villanueva García 
+AImage: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_IVillanueva.jpg"
+AAge: "25 años"
+ATwitter: "https://twitter.com/isavillanuevag_"  
+Aarrobat: "@isavillanuevag_"
+AInstagram: "https://www.instagram.com/isavillanuevag"
+Aarrobai: "@isavillanuevag"
+Adescription: "Memorista de Ingeniería Civil Hidráulica, Sanitaria y Ambiental trabajando e investigando en sistemas de tratamientos de aguas residuales con revalorización de recursos y carbono neutral. Actualmente presidenta de la ONG CEUS CHILE que es la red de estudiantes, téncicas/os y profesionales sustentables de Chile. Asesora del IV Congreso Estudiantil Universitario de Sustentabilidad, un espacio único de convergencia de líderes y liderezas sustentables en Chile. ¿Este 2019? Chile en el Escenario Mundial: de cara a la COP25. Apasionada por el Desarrollo Sostenible. Siempre en movimiento y constantemente aprendiendo. Fanática del ODS 17: Alianzas para lograr los objetivos."
+
 ---
 
 En diciembre de este año, el Parque Bicentenario y el Centro Cultural Tío Lalo Parra de Cerrillos se convertirán en el epicentro mundial de la discución climática y las propuestas para enfrentar la crisis climática.

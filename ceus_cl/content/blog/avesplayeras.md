@@ -2,19 +2,17 @@
 title: "Día Internacional de las aves playeras"
 date: 2019-09-05T10:26:34-04:00
 draft: false
-author: 
-  image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
-  name: Vicente Melo Velasco
-  age: "24 años"
-  twitter: "#" 
-  arrobat: "No uso" 
-  instagram: "#"
-  arrobai: "Tampoco uso"
-  description: "Memorista de Geología en la Universidad de Chile, con intereses en Geomorfología Glaciar, Glaciología y Geología Ambiental principalmente. Actualmente estudiando un depósito de avalancha de roca en el río Yeso. Actualmente integrante del equipo de contenido de la ONG CEUS CHILE."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/dia+de+las+aves.jpg"
 tags:
   - "Medio Ambiente"
-
+AName: Vicente Melo Velasco
+AImage: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
+AAge: "24 años"
+ATwitter: "#" 
+Aarrobat: "No uso" 
+AInstagram: "#"
+Aarrobai: "Tampoco uso"
+Adescription: "Memorista de Geología en la Universidad de Chile, con intereses en Geomorfología Glaciar, Glaciología y Geología Ambiental principalmente. Actualmente estudiando un depósito de avalancha de roca en el río Yeso. Actualmente integrante del equipo de contenido de la ONG CEUS CHILE."
 ---
 Este 6 de septiembre se celebra el día mundial de las aves playeras, aves que se caracterizan por que en sus migraciones recorren grandes distancias en búsqueda de alimento, sitios de descanso y reproducción. Chile, en sus aproximadamente 6400 kilómetros de costa, es un lugar de convergencia de diversas rutas migratorias, por lo que la correcta protección y conservación de los ecosistemas costeros es fundamental para no perjudicar la vida de estas aves.
 Con el pasar de los años se ha observado, a nivel mundial, la disminución de las especies de aves migratorias, especialmente por la desaparición y degradación de sus hábitats. Las aves migratorias dependen de los mismos humedales, estuarios y pastizales a los que año a año acuden, por lo que la desaparición y degradación de sus hábitats constituye, de hecho, la amenaza más grave para su supervivencia. En algunos casos, si al volver no encuentran el sitio en el que el año anterior descansaban, las aves continuarán --sin descanso ni alimento-- hasta la siguiente parada, quizás cientos de kilómetros más lejos. Debido al cansancio o a la inanición muchas de estas aves simplemente no sobreviven en este escenario. La expansión urbana, agrícola y ganadería han reducido considerablemente la disponibilidad y la calidad de los hábitats, mediante la introducción de especies invasoras, contaminantes químicos y una cada vez mayor cantidad de depredadores asociados a la actividad humana (perros, gatos, ratas, etc.). 

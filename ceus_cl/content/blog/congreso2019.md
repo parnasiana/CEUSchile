@@ -2,20 +2,19 @@
 title: "IV Congreso Estudiantil Universitario de Sustentabilidad CEUS 2019 “Chile en el Escenario Mundial: de cara a la COP25” ¡Nuestro tiempo para la acción!"
 date: 2019-08-30T20:47:10-04:00
 draft: false
-author: 
-  image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_JLecourt.jpg"
-  name: Javiera Lecourt Palacios
-  age: "25 años"
-  twitter: "https://twitter.com/Javi_Lecourt" 
-  arrobat: "@Javi_Lecourt" 
-  instagram: "https://www.instagram.com/pazlecourt"
-  arrobai: "@pazlecourt"
-  description: "Estudiante de Ingeniería Civil Hidraulica de la Universidad de Chile. Coordinadora general IV Congreso Estudiantil Universitario de Sustentabilidad CEUS 2019 “Chile en el Escenario Mundial: de cara a la COP25”"
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+1.png"
 tags:
   - "Congreso"
   - "Medio Ambiente"
   - "Sociedad"
+AName: Javiera Lecourt Palacios
+AImage: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_JLecourt.jpg"
+AAge: "25 años"
+ATwitter: "https://twitter.com/Javi_Lecourt" 
+Aarrobat: "@Javi_Lecourt" 
+AInstagram: "https://www.instagram.com/pazlecourt"
+Aarrobai: "@pazlecourt"
+Adescription: "Estudiante de Ingeniería Civil Hidraulica de la Universidad de Chile. Coordinadora general IV Congreso Estudiantil Universitario de Sustentabilidad CEUS 2019 “Chile en el Escenario Mundial: de cara a la COP25”"
 ---
 21, 22 y 23 de agosto son los días que nuestro equipo escogió para realizar el IV Congreso Estudiantil Universitario de Sustentabilidad  CEUS 2019 “Chile en el Escenario Mundial: de cara a la COP25”, que se llevará a cabo en la Universidad de Chile, Universidad Católica y Universidad Técnica Federico Santa María en Santiago de Chile.
 Como cada año reuniremos a 300 asistentes con el fin de informar, debatir, aprender y formar redes entre estudiantes, profesionales, técnicos/as y representantes de distintos sectores de la sociedad, sin embargo tenemos muchas sorpresas para esta nueva versión:

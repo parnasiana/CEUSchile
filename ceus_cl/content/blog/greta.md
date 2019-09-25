@@ -2,19 +2,19 @@
 title: "La juventud como agente de cambio: Greta Thunberg."
 date: 2019-08-30T20:33:53-04:00
 draft: false
-author: 
-  image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
-  name: Vicente Melo Velasco
-  age: "24 años"
-  twitter: "#" 
-  arrobat: "No uso" 
-  instagram: "#"
-  arrobai: "Tampoco uso"
-  description: "Memorista de Geología en la Universidad de Chile, con intereses en Geomorfología Glaciar, Glaciología y Geología Ambiental principalmente. Actualmente estudiando un depósito de avalancha de roca en el río Yeso. Actualmente integrante del equipo de contenido de la ONG CEUS CHILE."
 image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+2.png"
 tags:
   - "Medio Ambiente"
   - "Líderes Sustentables"
+AName: Vicente Melo Velasco
+AImage: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_VMelo.jpg"
+AAge: "24 años"
+ATwitter: "#" 
+Aarrobat: "No uso" 
+AInstagram: "#"
+Aarrobai: "Tampoco uso"
+Adescription: "Memorista de Geología en la Universidad de Chile, con intereses en Geomorfología Glaciar, Glaciología y Geología Ambiental principalmente. Actualmente estudiando un depósito de avalancha de roca en el río Yeso. Actualmente integrante del equipo de contenido de la ONG CEUS CHILE."
+
 ---
 Desde el año 1999, que la Asamblea General de las Naciones Unidas designó el 12 de agosto como el Día Internacional de la Juventud, una celebración anual que busca promover el papel de las y los jóvenes como agentes esenciales en los procesos de cambio y generar un espacio para generar conciencia sobre los desafíos y problemas a los que estos se enfrentan.
 Actualmente, existen en el mundo 1800 millones de jóvenes entre los 10 y 24 años. Es la población juvenil más grande de la historia, creándose así un potencial sin precedentes para desarrollo social y económico. Muchos de estos jóvenes ven su potencial obstaculizado por la pobreza, discriminación o por falta de información. Pero con una apropiada inversión en su educación y oportunidades, sus ideas, ideales e innovaciones pueden transformar el mundo.
