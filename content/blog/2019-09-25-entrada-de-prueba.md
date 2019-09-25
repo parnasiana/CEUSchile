@@ -1,7 +1,7 @@
 ---
 title: Entrada de prueba
 date: 2019-09-25T20:07:32.605Z
-draft: true
+draft: false
 image: /images/uploads/foto-1.png
 tags:
   - Medio Ambiente
