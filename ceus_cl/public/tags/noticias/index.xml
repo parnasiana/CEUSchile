@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;Noticias&#34; on CEUS Chile | La red de sustentabilidad</title>
-    <link>http://localhost:1313/tags/noticias/</link>
-    <description>Recent content in &#34;Noticias&#34; on CEUS Chile | La red de sustentabilidad</description>
+    <title>Noticias on CEUS Chile | La red de sustentabilidad</title>
+    <link>https://www.ceuschile.cl/tags/noticias/</link>
+    <description>Recent content in Noticias on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2019 21:56:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 14:41:52 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/noticias/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ceuschile.cl/tags/noticias/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>prueba</title>
-      <link>http://localhost:1313/2019-09-25-prueba/</link>
-      <pubDate>Wed, 25 Sep 2019 21:56:42 +0000</pubDate>
-      
-      <guid>http://localhost:1313/2019-09-25-prueba/</guid>
-      <description>jjjjjjj</description>
-    </item>
     
     <item>
       <title>Municipio de Cerrillos y Sociedad Civil por la Acción Climática llegan a acuerdo para realizar COP25 Paralela</title>
-      <link>http://localhost:1313/cerrilloscop25/</link>
+      <link>https://www.ceuschile.cl/cerrilloscop25/</link>
       <pubDate>Fri, 30 Aug 2019 14:41:52 -0400</pubDate>
       
-      <guid>http://localhost:1313/cerrilloscop25/</guid>
+      <guid>https://www.ceuschile.cl/cerrilloscop25/</guid>
       <description>En diciembre de este año, el Parque Bicentenario y el Centro Cultural Tío Lalo Parra de Cerrillos se convertirán en el epicentro mundial de la discución climática y las propuestas para enfrentar la crisis climática.</description>
     </item>
     
