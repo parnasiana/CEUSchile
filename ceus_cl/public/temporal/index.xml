@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estamos trabajando para ustedes | CEUS Chile | La red de sustentabilidad on CEUS Chile | La red de sustentabilidad</title>
-    <link>https://www.ceuschile.cl/temporal/</link>
+    <link>http://localhost:1313/temporal/</link>
     <description>Recent content in Estamos trabajando para ustedes | CEUS Chile | La red de sustentabilidad on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.ceuschile.cl/temporal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/temporal/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -3,109 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ceuschile.cl/blog/</loc>
+    <loc>http://localhost:1313/tags/noticias/</loc>
+    <lastmod>2019-09-25T21:56:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2019-09-25T21:56:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-09-25T21:56:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2019-09-25T21:56:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2019-09-25-prueba/</loc>
+    <lastmod>2019-09-25T21:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/avesplayeras/</loc>
+    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/medio-ambiente/</loc>
     <lastmod>2019-09-05T10:26:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/</loc>
-    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/avesplayeras/</loc>
-    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/tags/medio-ambiente/</loc>
-    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/tags/</loc>
-    <lastmod>2019-09-05T10:26:34-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/tags/congreso/</loc>
+    <loc>http://localhost:1313/tags/congreso/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/congreso2019/</loc>
+    <loc>http://localhost:1313/congreso2019/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/sociedad/</loc>
+    <loc>http://localhost:1313/tags/sociedad/</loc>
     <lastmod>2019-08-30T20:47:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/greta/</loc>
+    <loc>http://localhost:1313/greta/</loc>
     <lastmod>2019-08-30T20:33:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/l%C3%ADderes-sustentables/</loc>
+    <loc>http://localhost:1313/tags/l%C3%ADderes-sustentables/</loc>
     <lastmod>2019-08-30T20:33:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/desarrollo-sustentable/</loc>
+    <loc>http://localhost:1313/tags/desarrollo-sustentable/</loc>
     <lastmod>2019-08-30T14:41:52-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/cerrilloscop25/</loc>
+    <loc>http://localhost:1313/cerrilloscop25/</loc>
     <lastmod>2019-08-30T14:41:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/noticias/</loc>
-    <lastmod>2019-08-30T14:41:52-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ceuschile.cl/marcha15m/</loc>
+    <loc>http://localhost:1313/marcha15m/</loc>
     <lastmod>2019-08-30T11:01:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/tags/opini%C3%B3n/</loc>
+    <loc>http://localhost:1313/tags/opini%C3%B3n/</loc>
     <lastmod>2019-08-30T11:01:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/temporal/</loc>
+    <loc>http://localhost:1313/temporal/</loc>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/submit/</loc>
+    <loc>http://localhost:1313/submit/</loc>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/form/</loc>
+    <loc>http://localhost:1313/form/</loc>
   </url>
   
   <url>
-    <loc>https://www.ceuschile.cl/aboutus/</loc>
+    <loc>http://localhost:1313/aboutus/</loc>
   </url>
   
 </urlset>

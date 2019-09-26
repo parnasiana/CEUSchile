@@ -5,6 +5,9 @@ theme="restaurant-hugo"
 summaryLength = "7"
 js = ["static/letb.js"]
 
+[wordCount]
+other = "{{ .WordCount }} words"
+
 [taxonomies]
   author = "authors"
   tag = "tags"

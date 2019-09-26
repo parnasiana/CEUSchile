@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinión on CEUS Chile | La red de sustentabilidad</title>
-    <link>https://www.ceuschile.cl/tags/opini%C3%B3n/</link>
+    <link>http://localhost:1313/tags/opini%C3%B3n/</link>
     <description>Recent content in Opinión on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 11:01:15 -0400</lastBuildDate>
     
-	<atom:link href="https://www.ceuschile.cl/tags/opini%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/opini%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Marcha #15M: ¿Por qué marchamos?</title>
-      <link>https://www.ceuschile.cl/marcha15m/</link>
+      <link>http://localhost:1313/marcha15m/</link>
       <pubDate>Fri, 30 Aug 2019 11:01:15 -0400</pubDate>
       
-      <guid>https://www.ceuschile.cl/marcha15m/</guid>
+      <guid>http://localhost:1313/marcha15m/</guid>
       <description>¿Para qué estudiar para un futuro que podría nunca llegar?</description>
     </item>
     

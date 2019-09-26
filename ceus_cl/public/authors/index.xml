@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on CEUS Chile | La red de sustentabilidad</title>
-    <link>https://www.ceuschile.cl/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on CEUS Chile | La red de sustentabilidad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.ceuschile.cl/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
