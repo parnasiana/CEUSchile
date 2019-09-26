@@ -1,19 +1,21 @@
 ---
-title: "Marcha #15M: ¿Por qué marchamos?"
-date: 2019-08-30T11:01:15-04:00
+title: 'Marcha #15M: ¿Por qué marchamos?'
+date: 2019-08-30T15:01:15.000Z
 draft: false
-image: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg"
+image: 'https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/FOTO+4.jpg'
 tags:
-  - "Opinión"
-  - "Medio Ambiente"
+  - Opinión
+  - Medio Ambiente
 AName: Kevin Flores Cáceres
-AImage: "https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_KFlores.jpg"
-AAge: "29 años"
-ATwitter: "https://twitter.com/er_kevin"
-Aarrobat: "@er_kevin"
-AInstagram: "https://www.instagram.com/quemelleveelviento/"
-Aarrobai: "@quemelleveelviento"
-Adescription: "Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de profesión, interesado en la sustentabilidad en la minería y otros temas."
+AImage: 'https://letb.s3-sa-east-1.amazonaws.com/CEUS/blog/autores/ceus_KFlores.jpg'
+AAge: 29 años
+ATwitter: 'https://twitter.com/er_kevin'
+Aarrobat: '@er_kevin'
+AInstagram: 'https://www.instagram.com/quemelleveelviento/'
+Arrobai: '@quemelleveelviento'
+Adescription: >-
+  Director de Contenido y Página Web de CEUS CHILE. Ingeniero civil de minas de
+  profesión, interesado en la sustentabilidad en la minería y otros temas.
 ---
 ¿Para qué estudiar para un futuro que podría nunca llegar? Con este mensaje, la organización Fridays For Future convoca para este 15 de Marzo una manifestación a nivel mundial para emplazar a los distintos gobiernos a tomar acciones concretas para frenar el avance del cambio climático. A primeras tintas, es fácil simpatizar con esta causa. Después de todo, la ONU ha manifestado recientemente que es preciso tomar medidas urgentes para reparar el medio ambiente si se quiere evitar un gran daño a la salud humana. Pero, ¿quiénes son Fridays For Future, y qué es lo que buscan?
 
