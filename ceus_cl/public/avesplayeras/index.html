@@ -266,6 +266,17 @@ Las y los invitamos a mirar el Atlas de las aves playeras de Chile, el cual tien
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
     </body>
 </html>
 
