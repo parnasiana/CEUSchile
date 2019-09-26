@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
   repo: parnasiana/CEUSchile
+  base_url: https://console.firebase.google.com/u/0/project/ceus-chile/overview
+  auth_endpoint: /oauth/auth
 
 media_folder: "static/uploads" 
 public_folder: "/uploads"
