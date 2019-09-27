@@ -1,7 +1,7 @@
 backend:
     name: github
     branch: master
-    repo: parnasiana/CEUSchile
+    repo: parnasiana/CEUSchile/ceus_cl
     base_url: https://us-central1-ceus-chile.cloudfunctions.net
     auth_endpoint: /oauth/auth
     accept_roles: 
