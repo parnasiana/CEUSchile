@@ -34,4 +34,4 @@ collections:
       - {label: "Tu arroba de Instagram (Ej: @USUARIO)", name: "Arrobai", widget: "string"}
       - {label: "Escribe una breve descripción sobre ti", name: "Adescription", widget: "text"}
       - {label: "Escribe tu artículo", name: "body", widget: "markdown"}
-      - {label: Type, name: type, widget: hidden, default: post}
+
