@@ -2,8 +2,11 @@ backend:
     name: github
     branch: master
     repo: parnasiana/CEUSchile
-    base_url: https://ceuschile.cl/admin
+    base_url: https://us-central1-ceus-chile.cloudfunctions.net
     auth_endpoint: /oauth/auth
+    accept_roles: 
+    - admin
+    - editor
 
 media_folder: "static/uploads"
 public_folder: uploads
