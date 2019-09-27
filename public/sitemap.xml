@@ -4,14 +4,47 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2019-09-25-entrada-de-prueba/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/medio-ambiente/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sociedad/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-09-25T20:07:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2019-09-25-test/</loc>
+    <lastmod>2019-09-25T17:23:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
