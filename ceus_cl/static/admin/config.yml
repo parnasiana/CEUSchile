@@ -13,6 +13,7 @@ public_folder: uploads
 
 site_url: https://ceuschile.cl
 
+publish_mode: editorial_workflow
 
 collections:
   - name: "blog"
