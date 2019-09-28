@@ -1,7 +1,7 @@
 ---
 title: Estamos trabajando en crear nuevas entradas de blog
 date: 2019-09-27T20:34:50.231Z
-draft: true
+draft: false
 image: /uploads/portadafb.jpg
 tags:
   - Medio Ambiente
