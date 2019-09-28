@@ -1,7 +1,7 @@
 ---
 title: Estamos trabajando en crear nuevas entradas de blog
 date: 2019-09-27T20:34:50.231Z
-draft: false
+draft: true
 image: /uploads/header.jpg
 tags:
   - Noticias
