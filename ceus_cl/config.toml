@@ -23,7 +23,7 @@ other = "{{ .WordCount }} words"
 
 
 [context.deploy-preview.environment]
-    HUGO_VERSION = "0.53"
+    HUGO_VERSION = "0.55.6"
 
 [context.split1]
     command = "hugo --gc --minify --enableGitInfo"
