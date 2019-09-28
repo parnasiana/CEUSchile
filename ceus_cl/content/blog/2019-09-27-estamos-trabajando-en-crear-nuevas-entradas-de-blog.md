@@ -1,8 +1,8 @@
 ---
 title: Estamos trabajando en crear nuevas entradas de blog
 date: 2019-09-27T20:34:50.231Z
-draft: true
-image: /uploads/header.jpg
+draft: false
+image: /uploads/portadafb.jpg
 tags:
   - Noticias
 AName: Bárbara Letelier Soto
